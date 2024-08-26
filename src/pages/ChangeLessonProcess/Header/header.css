@@ -1,0 +1,48 @@
+.header-lsn-process {
+  position: fixed;
+  z-index: 10;
+  background-color: #f7f8fc;
+  height: 89px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #d3d3d3;
+  padding: 0 24px 0 31px;
+}
+
+.header-lsn-process-logo {
+  height: 27.67px;
+  cursor: pointer;
+}
+
+.header-lsn-process-title {
+  line-height: 35px;
+  font-size: 22px;
+  padding-left: 10px;
+}
+
+.header-lsn-process-short-line-icon {
+  padding-left: 12.5px;
+  padding-right: 11.5px;
+}
+
+.header-lsn-process-nav-title {
+  line-height: 35px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.lesson-process-time-container {
+}
+.lesson-process-time {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: rgba(222, 223, 231, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+  border: 3px solid rgba(106, 177, 254, 1);
+}

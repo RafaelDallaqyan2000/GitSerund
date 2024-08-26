@@ -1,0 +1,76 @@
+.body_reply_comment {
+    width: 100%;
+    color: #fff;
+    display: flex;
+    margin-top: 21px;
+    padding-left: 40px;
+}
+
+.avatar_reply_comment {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 50%;
+    overflow: hidden;
+    outline: 1px solid #c0bebe;
+}
+
+.avatar_reply_comment_img {
+    width: 30px;
+    height: 30px;
+}
+
+.reply_name {
+    font-family: Mardoto, sans-serif;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.reply_date {
+    font-family: MardotoRegular, sans-serif;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: rgba(255, 255, 255, 0.51);
+    text-transform: none;
+
+}
+
+.reply_text {
+    font-family: MardotoRegular, sans-serif;
+    font-style: normal;
+    font-size: 11px;
+    line-height: 16px;
+    margin-top: 7px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    line-break: anywhere;
+}
+
+.reply_close{
+    font-family: 'Mardoto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #6ab1fe;
+    border: 0;
+    outline: 0;
+    background-color: unset;
+    margin-left: 78px;
+}
+
+.body_reply_container {
+    width: calc(100% - 30px);
+}
+
+.reply_inner{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 4px;
+}

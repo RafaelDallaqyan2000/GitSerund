@@ -1,0 +1,2 @@
+export { LessonPlanDescription } from "./LessonPlanDescription";
+

@@ -1,0 +1,65 @@
+.filter-component-in-admin-page {
+    width: 89%;
+    background: #FFFFFF;
+    /* border */
+    border: 1px solid #DFE3E7;
+    border-radius: 12px;
+    position: relative;
+    margin: 20px 0 38px;
+}
+.selects-on-filter-in-admin-page {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.buttons-container-on-filter-admin-page {
+    display: flex;
+    align-items: center;
+    gap: 34px;
+    font-family: 'Mardoto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+.disable-button-on-message-window-admin-page {
+    width: 144px;
+    height: 40px;
+    background: #DADADA;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #fff;
+    padding: 0;
+}
+.button-on-message-window-admin-page {
+    width: 144px;
+    height: 40px;
+    background: linear-gradient(83.13deg, #6FD89C 0%, #46B776 100%) !important;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #fff;
+    padding: 0;
+    /*display: flex;*/
+    /*justify-content: c;*/
+}
+.buttons-container-on-filter-admin-page span {
+    color: #8C8E92;
+    cursor: pointer;
+}
+
+.button-on-filter-admin-page {
+    width: 144px;
+    height: 40px;
+    background: linear-gradient(83.13deg, #6FD89C 0%, #46B776 100%) !important;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+}

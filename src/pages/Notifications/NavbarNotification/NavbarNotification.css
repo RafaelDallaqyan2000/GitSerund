@@ -1,0 +1,42 @@
+.navbar_notifications_container {
+    display: flex;
+    justify-content: space-between;
+}
+.icons_on_navbar_notifications {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-right: 88px;
+    margin-top: 23px;
+
+}
+.title_notifications_page {
+    font-family: 'Mardoto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    display: flex;
+    align-items: flex-end;
+    color: #1C1C1C;
+    margin-bottom: 8px;
+}
+
+.background-icons_on_navbar {
+    background-color: #FFF;
+    width: 47px;
+    height: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    border: 1px solid #DFE3E7;
+    cursor: pointer;
+}
+.icons_on_navbar_notifications .active div{
+    background-color: #9DA6C4;
+}
+
+.icons_on_navbar_notifications .active div img {
+    filter: brightness(0) invert(1);
+}

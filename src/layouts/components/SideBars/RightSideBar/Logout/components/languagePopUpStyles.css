@@ -1,0 +1,20 @@
+.languagePopUpContainer {
+  background-color: #fff;
+  position: absolute;
+  left: -140px;
+  bottom: 0;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 7px #00000040;
+}
+
+.everyPupUpItem {
+  padding: 8px 16px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+}

@@ -1,0 +1,125 @@
+.sidebar_logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  width: 70px;
+}
+
+.sidebar_logo_home {
+  width: 150px;
+}
+
+.left_sidebar {
+  position: fixed;
+  width: 231px;
+  /* Todo: overflow-y: auto;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  top: 0;
+  bottom: 0;
+  max-height: 100vh;
+  padding: 19px 0 0;
+  background: rgba(255, 255, 255, 1);
+  left: 0px;
+}
+
+.create_new_lsn_pln {
+  display: flex;
+  align-items: center;
+  width: 200px;
+  padding-left: 20px;
+  cursor: pointer;
+  margin-bottom: 24px;
+}
+
+.create_new_lsn_pln_figure {
+  width: 60px;
+  height: 60px;
+  padding: 20px;
+  background-color: #3a4e8a;
+  border-radius: 50%;
+  margin-right: 22px;
+}
+
+.create_new_lsn_pln_icon {
+  width: 20px;
+  height: 20px;
+  margin: 0;
+}
+
+.create_new_lsn_pln_text {
+  font-family: "Mardoto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  color: #4f5b67;
+}
+
+.sidebar-item {
+  color: #8c8e92;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #8c8e92;
+}
+
+.sidebar-item:hover {
+  background-color: #f7f7fb;
+}
+
+.activeclass:hover {
+  background-color: #f0f2fe;
+}
+
+.sidebar-item-title {
+  font-family: "Mardoto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  color: #4a4a4a;
+}
+
+.activeclass .sidebar-item-title-container::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 4px;
+  height: 100%;
+  background-color: #3a4e8a;
+}
+
+.activeclass path {
+  stroke: #283c79 !important;
+}
+
+.activeclass .change-fill path {
+  fill: #283c79;
+}
+
+.sidebar-item-title-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  padding: 12px 0 12px 24px;
+}
+
+.sidebar-item-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 15.5px;
+}
+
+.pages {
+  margin: 27px 0;
+}
+
+.activeclass {
+  color: #283c79;
+  background-color: #f0f2fe;
+}

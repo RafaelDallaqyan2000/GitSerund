@@ -1,0 +1,16 @@
+.subjectItem {
+    width: 40px;
+    height: 40px;
+    /*background: linear-gradient(74deg, rgba(157, 154, 255, 0.65) 0%, rgba(98, 94, 220, 0.65) 100%);*/
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.subjectItemImage {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}

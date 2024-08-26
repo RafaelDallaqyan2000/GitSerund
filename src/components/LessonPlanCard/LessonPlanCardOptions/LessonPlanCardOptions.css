@@ -1,0 +1,60 @@
+.lsn_plan_card_options_container{
+    position: relative;
+    width: 26px;
+    height: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lsn_plan_card_options{
+    /*width: 16px;*/
+    /*height: 4px;*/
+}
+
+.lsn_plan_card_options_modal{
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 10px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    padding: 12px 8px;
+    min-width: 216px;
+    width: fit-content;
+    top: calc(100% + 12px);
+    position: absolute;
+    left: 0;
+    z-index: 100;
+}
+
+.lsn_plan_card_options_item{
+    padding: 12px 9px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.lsn_plan_card_options_icon{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.lsn_plan_card_options_text{
+    font-family: 'Mardoto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.lsn_plan_card_options_text_blue{
+    background: linear-gradient(86.71deg, #6AB1FE -1.37%, #2B89EF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.lsn_plan_card_options_text_red{
+    color: #EA6670;
+}

@@ -1,0 +1,11 @@
+.responsiveHeartBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    border: 1px solid #DFE3E7;
+    border-radius: 12px;
+    overflow: hidden;
+    width: 48px;
+    height: 48px;
+}

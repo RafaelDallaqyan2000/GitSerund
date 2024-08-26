@@ -1,0 +1,10 @@
+.lsn_plan_card_list{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.lsn_plan_card_article_container {
+    margin: 20px 15px 0;
+}

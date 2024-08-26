@@ -1,0 +1,27 @@
+.header-lsn-proc {
+  width: 32%;
+  color: #050505;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
+  margin-left: 2%;
+}
+
+.create-lesson-process-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background: #f7f8fc;
+  height: 90px;
+  padding: 0 30px;
+}
+.create-lesson-process-header-duration-container {
+  width: 51px;
+  height: 51px;
+  background: #dedfe7;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,11 @@
+.grey_button{
+    font-family: 'Mardoto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #8C8E92;
+    background: #EEF1F6;
+    border-radius: 6px;
+    padding: 11px 15px;
+}

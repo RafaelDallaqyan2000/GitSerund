@@ -1,0 +1,64 @@
+.message_option_lists{
+    position: absolute;
+    top: calc(100%  + 8px);
+    right: 0;
+    margin: 0 !important;
+    padding: 0;
+    width: 145px;
+    background: #2B2B2B;
+    border-radius: 4px;
+    list-style-type: none;
+    z-index: 999;
+}
+.message_option{
+    display: flex;
+    align-items: center;
+    padding: 8px 12px;
+    transition: all .4s;
+    cursor: pointer;
+}
+.message_option_text{
+    font-family: 'Mardoto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    padding: 8px 12px;
+    transition: all .4s;
+    cursor: pointer;
+}
+
+.option {
+    cursor: pointer;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: inherit;
+}
+.option.open {
+    cursor: pointer;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #2B2B2B;
+}
+
+.message_option.del_option .message_option_text{
+    color: #EA6670;
+}
+.message_option.resolve .message_option_text{
+    color: #6FD89C;
+}
+.message_option:hover{
+    background-color: #181818;
+}
+.message_option:nth-child(1){
+    border-radius: 4px 4px 0 0;
+}
+.message_option:nth-last-child(1){
+    border-radius: 0 0 4px 4px;
+}

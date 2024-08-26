@@ -1,0 +1,53 @@
+.method-editor {
+  box-sizing: border-box;
+  border: 1.5px solid #93c7ff !important;
+  cursor: text;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 6px;
+  margin-top: 11px;
+  width: 352px;
+  min-height: 70px;
+  height: fit-content;
+  line-height: 21px;
+}
+.method-editor-large-container {
+  margin-top: 12px;
+}
+.method-editor-large {
+  box-sizing: border-box;
+  border: 1.5px solid #93c7ff !important;
+  cursor: text;
+  padding: 0 11px;
+  border-radius: 6px;
+  margin: 11px 0;
+  width: 100%;
+  line-height: 21px;
+}
+
+.method-editor :global(.public-DraftEditor-content) {
+  min-height: 140px;
+}
+
+.headlineButtonWrapper {
+  display: inline-block;
+}
+
+.headlineButton {
+  background: #fbfbfb;
+  color: #888;
+  font-size: 18px;
+  border: 0;
+  padding-top: 5px;
+  vertical-align: bottom;
+  height: 34px;
+  width: 36px;
+}
+
+.headlineButton:hover,
+.headlineButton:focus {
+  background: #f3f3f3;
+}
+.method-editor-label {
+  font-size: 12px;
+}

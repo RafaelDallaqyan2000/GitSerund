@@ -1,0 +1,18 @@
+.lsn-proc-comment-and-time-container {
+  width: 100%;
+  background-color: #dfe3e7;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 12px;
+  padding: 2px 4px 0px 11px;
+}
+
+.lsn-proc-comment-and-time-container span {
+  color: #4a4a4a;
+  font-family: Mardoto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}

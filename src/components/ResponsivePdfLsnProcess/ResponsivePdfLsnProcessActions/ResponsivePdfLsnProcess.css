@@ -1,0 +1,48 @@
+.lsn-plan-blackboard-image-container {
+  margin-top: 16px;
+}
+
+.lsn-plan-blackboard-image-title-container {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.lsn-plan-blackboard-image-text {
+  color: #4a4a4a;
+  font-family: Mardoto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.pdf-responsive-action-container {
+  overflow-wrap: anywhere;
+}
+
+.pdf-responsive-action-container :where(ul, ol) {
+  margin-left: 18px;
+}
+
+.pdf-responsive-action-container a {
+  font-size: 14px;
+  margin-left: 5px;
+}
+
+.pdf-responsive-action-container + .pdf-responsive-action-container {
+  margin-top: 16px;
+  padding-top: 16px;
+}
+
+.lsn-plan-responsive-blackboard-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.lsn-plan-responsive-blackboard-container .board-for-mobile {
+  width: 100%;
+  max-width: 100%;
+  max-height: 100%;
+}

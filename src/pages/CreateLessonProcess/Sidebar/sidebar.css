@@ -1,0 +1,209 @@
+.added-lesson-process-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 8px 8px 8px;
+  cursor: pointer;
+  border-radius: 8px; /* for hover effect*/
+}
+.add-for-saved-teacher-process {
+  width: 148px;
+  height: 54px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-left: 9px;
+}
+.lesson-process-actions-name-container {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid #dfe3e7;
+  cursor: default;
+}
+.lesson-process-action-container {
+  background: white;
+  width: 50%;
+  height: 38px;
+  border-left: 1px solid #dfe3e7;
+}
+.lesson-process-action-name {
+  line-height: 38px;
+  font-size: 12px;
+  text-align: center;
+  color: #4c4c4c;
+}
+.added-lesson-process-wrapper {
+  padding: 5px 0px 10px 0px;
+  top: 40px;
+  border-radius: 6px;
+  border: 1px solid #dfe3e7;
+  position: relative;
+  margin-top: 18px;
+}
+.show-lesson-process-wrapper {
+  padding: 5px 0px 10px 0px;
+  top: 40px;
+  border-radius: 6px;
+  border: 1px solid #dfe3e7;
+  background-color: #ccd2e3;
+  position: relative;
+  margin-top: 18px;
+}
+.process-name-input {
+  width: 100% !important;
+}
+.sidebar-input {
+  width: 100%;
+  padding-right: 40px;
+}
+
+.sidebar-submit-btn{
+  position: absolute;  
+  cursor: pointer;
+  top: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #5cbf7e;
+  right: 25px;
+}
+
+.added-lesson-method-name-container {
+  position: relative;
+  word-wrap: break-word;
+  color: dimgray;
+  text-align: center;
+  left: 0;
+  right: 0;
+  top: -16px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #f7f8fc;
+  display: flex;
+  flex-direction: column;
+}
+.added_newMethod {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-bottom: 15px;
+  color: dimgrey;
+}
+.delete-lesson-method-container {
+  cursor: pointer;
+}
+.restore-lesson-method-container {
+  cursor: pointer;
+}
+.method-delete-icon {
+  display: none;
+  content: url(../../../img/deleteFile.svg);
+  position: absolute;
+  right: -5px;
+  top: -5px;
+  background-color: pink;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  z-index: 999;
+  padding: 3px;
+}
+.method-recover-icon {
+  display: none;
+  content: url(../../../img/editPage.svg);
+  position: absolute;
+  right: -5px;
+  top: -5px;
+  background-color: #35a4f3;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  z-index: 999;
+  padding: 3px;
+}
+.saved-process:hover .method-delete-icon, .saved-process:hover .method-recover-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.saved-process::after ~ .saved-process::after:hover {
+  background-color: green;
+}
+
+.saved-process:hover::after:hover {
+  background-color: rgb(231, 126, 126);
+}
+.saved-process-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px 0 18px 0;
+}
+
+.saved-process {
+  width: 50%;
+  min-height: 54px;
+  border-radius: 8px;
+  font-size: 12px;
+  position: relative;
+  line-height: 23px;
+  padding: 6px 10px;
+  color: #ffffff;
+  word-wrap: break-word;
+  cursor: pointer;
+}
+
+.empty-methot-action {
+  width: 148px;
+  min-height: 54px;
+}
+.saved-process-text {
+  /* display: -webkit-box; */
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #ffffff;
+  text-overflow: ellipsis;
+}
+
+.saved-process-teacher {
+  background: linear-gradient(74.09deg, #fbb86b 0%, #e38d2a 100%);
+  border: 1.5px solid #aa5b00;
+}
+.deleted-process-teacher {
+  background: linear-gradient(74.09deg, #adadad 0%, #868686 100%);
+
+}
+.saved-process-student {
+  background: linear-gradient(83.13deg, #6fd89c, #46b776);
+  margin-right: 8px;
+  border: 1.5px solid #006b2e;
+}
+.added-new-process-student {
+  background: linear-gradient(83.13deg, #6fd89c, #46b776);
+  margin-right: 8px;
+}
+.added-new-process-teacher {
+  background: linear-gradient(74.09deg, #fbb86b 0%, #e38d2a 100%);
+}
+
+
+.added-lesson-process-container:hover {
+  background-color: #e4e8f5;
+}
+.my_select_style {
+  top: 15px;
+  right: 0;
+  position: absolute;
+  cursor: pointer;
+}
+.recover-teacher-process {
+  background-color: #bebebe;
+  border: 1.5px solid #7e7d7d;
+}
+.recover-student-process {
+  background-color: #ababab;
+  border: 1.5px solid #646161;
+  margin-right: 8px;
+}

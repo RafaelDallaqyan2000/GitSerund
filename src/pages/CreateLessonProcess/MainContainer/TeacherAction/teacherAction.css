@@ -1,0 +1,16 @@
+.teacher-method {
+  background: #fbb86b;
+}
+.method-title-container {
+  margin-bottom: 22px;
+  /* background-color: #6fd89c; */
+  padding: 13px;
+  width: 300px;
+  border-radius: 54px;
+}
+.method-title {
+  color: white;
+}
+.py-11 {
+  padding: 11px 11px;
+}

@@ -1,0 +1,106 @@
+.header-lsn-plan {
+  background-color: #f7f8fc;
+  height: 89px;
+  display: flex;
+  padding-top: 27px;
+  border-bottom: 1px solid #d3d3d3;
+  justify-content: space-around;
+  padding-left: 14px;
+  padding-right: 25px;
+}
+
+.header-lsn-plan:hover {
+  cursor: pointer;
+}
+
+.semester {
+  /*width: 100% !important;*/
+  margin-left: 0;
+  font-size: 12px !important;
+}
+.semester-input {
+  font-size: 12px !important;
+}
+.lsn_plan_header {
+  background-color: #f7f8fc;
+  height: 89px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #d3d3d3;
+  justify-content: space-between;
+  padding-left: 14px;
+  padding-right: 25px;
+}
+
+.lesson_plan_regulations_container {
+  display: flex;
+}
+
+.lesson-plan-regulations-line {
+  width: 24px;
+}
+
+.lesson_plan_regulations_text {
+  font-weight: 400;
+  font-size: 16px;
+  color: #4a4a4a;
+  line-height: 18.75px;
+  padding: 17px 6px;
+}
+
+.less_plan {
+  align-self: center;
+  margin-left: 14px;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 27px;
+  color: #050505;
+  padding-top: 2px;
+  margin-right: 5px;
+}
+
+.lp-regulations-text1 {
+  padding-right: 12.5px;
+}
+
+.lp-regulations2 {
+  margin-left: 12.5px;
+}
+
+.header_logo{
+  width: 70px;
+  height: 70px;
+}
+.header_logo_icon{
+  width: 100%;
+  height: 100%;
+}
+
+@media only screen and (max-width: 750px){
+  .header_logo{
+    width: 60px;
+    height: 60px;
+  }
+  .less_plan {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 525px){
+  .header_logo{
+    width: 45px;
+    height: 45px;
+  }
+  .less_plan {
+    font-size: 18px;
+  }
+  .lesson_plan_regulations_text {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 450px){
+  .less_plan {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,12 @@
+.layout-container {
+  height: 1172px;
+  width: 843px;
+  left: 231px;
+  top: -75px;
+  border-radius: [object Object]px;
+  background: rgba(247, 248, 252, 1);
+  overflow-y: auto;
+  }
+  * {
+    box-sizing: border-box;
+  }

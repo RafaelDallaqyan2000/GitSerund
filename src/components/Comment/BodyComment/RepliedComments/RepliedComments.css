@@ -1,0 +1,33 @@
+.comment_reply {
+    width: 100%;
+}
+
+.comment_reply_hidden {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding-left: 40px;
+    flex-wrap: wrap;
+}
+
+.comment_reply_count {
+    font-family: 'Mardoto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #2B89EF;
+    margin-right: 16px;
+}
+
+.comment_reply_date {
+    font-family: 'Mardoto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #8C8E92;
+}

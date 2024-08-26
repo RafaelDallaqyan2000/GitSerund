@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.comment_container {
+    width: 304px;
+    background: #474747;
+    border-radius: 6px;
+    position: absolute;
+    top: 35px;
+    z-index: 20;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (max-width: 1600px) {
+    .comment_container {
+        right: 0;
+    }
+}
+
+@media screen and (max-width: 1120px) {
+    .comment_container {
+        right: -29px;
+        width: 100dvw;
+        padding: 0 12px;
+    }
+
+    .comment_header {
+        margin-right: 4px !important;
+        width: calc(100% - 4px) !important; /* 4px belong to margin */
+    }
+
+    .comment_body {
+        margin: 0 !important;
+    }
+
+    .comment_body_header {
+        width: 100% !important;
+    }
+    .comment_body_name {
+        font-weight: 700;
+    }
+
+    .comment_type_container {
+        margin-top: 4px !important ;
+        height: 16px !important;
+        width: 120px !important;
+    }
+
+    .types_body {
+        width: 100% !important;
+    }
+
+    .comment_type_container .comment_type {
+        font-size: 8px;
+    }
+    .comment_text {
+        font-family: Mardoto !important;
+        margin-top: 8px !important;
+        letter-spacing: 0.22px !important;
+        font-weight: 400 !important;
+    }
+
+    .message_option_lists {
+        top: calc(100% + 4px) !important;
+        width: 122px !important;
+    }
+
+    .message_option + .message_option {
+        border-top: 1px solid #F4F4F4;
+    }
+
+    .comment_form_btn {
+        right: 7px !important;
+    }
+}

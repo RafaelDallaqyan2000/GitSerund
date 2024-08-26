@@ -1,0 +1,18 @@
+/* mi haty */
+.draftJsToolbar__buttonWrapper__1Dmqh {
+  display: inline-block;
+}
+/* lriv */
+
+.draftJsToolbar__toolbar__dNtBH {
+  margin-left: 150px;
+  left: 50%;
+  transform: translate(-50%) scale(0);
+  position: absolute;
+  border: 1px solid #ddd;
+  background: #fff;
+  border-radius: 2px;
+  box-shadow: 0px 1px 3px 0px rgb(220 220 220);
+  z-index: 2;
+  box-sizing: border-box;
+}

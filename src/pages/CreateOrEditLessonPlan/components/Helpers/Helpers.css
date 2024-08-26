@@ -1,0 +1,34 @@
+.helper-input {
+    width: 300px;
+    padding-right: 35px;
+}
+.labelStyle {
+    color: #8c8e92;
+}
+.subject_classes_container{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1400px) {
+    .helper-input {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .helper-input {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 810px){
+    .subject_classes_container{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+

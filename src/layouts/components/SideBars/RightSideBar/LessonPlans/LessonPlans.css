@@ -1,0 +1,118 @@
+.right-sidebar-lesson-plans-container {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+}
+.right-sidebar-lesson-plans-title {
+  font-size: 16px;
+  line-height: 19px;
+  cursor: default;
+}
+.gradient {
+  background: -webkit-linear-gradient(left, #6ab1fe, #2b89ef);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+}
+
+.right-sidebar-lesson-plan-item-wrapper {
+  margin-top: 14px;
+}
+
+.all {
+  margin-left: 113px;
+  height: 19px;
+  width: 49px;
+  border-radius: nullpx;
+  /* font-family: Mardoto; */
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #2b89ef;
+  border: none;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.right-sidebar-lesson-plan-item-container {
+  /* font-family: Mardoto; */
+  /* font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #050505; */
+}
+
+.right-sidebar-lesson-plan-item-container {
+  background: #fafbfc;
+  border: 1px solid #e0e3ec;
+  border-radius: 12px;
+  /* height: 82px; */
+  margin-bottom: 16px;
+  padding: 12px 16px 10px 17px;
+  cursor: pointer;
+}
+
+.right-sidebar-lesson-plan-item-theme {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  max-width: 235px;
+  max-height: 60px;
+  word-wrap: break-word;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  word-wrap: break-word;
+  -webkit-line-clamp: 2;
+}
+
+.right-sidebar-lesson-plan-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 7px;
+}
+
+.right-sidebar-lesson-plan-item-class {
+  padding-top: 3px;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.right-sidebar-lesson-plan-item-date {
+  font-size: 12px;
+  color: #8c8e92;
+  line-height: 14px;
+  margin-top: 7px;
+  text-transform: capitalize;
+}
+
+.dasaran {
+  /* font-family: Mardoto; */
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #2b89ef;
+}
+
+.amsativ {
+  /* font-family: Mardoto; */
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #8c8e92;
+  padding-top: 5px;
+}

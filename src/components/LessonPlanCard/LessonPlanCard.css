@@ -1,0 +1,295 @@
+.lsn_plan_card{
+    width: 240px;
+    height: 325px;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    border: 0;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.lsn_plan_figure{
+    width: 100%;
+    height: 120px;
+    border-radius: 12px 12px 0 0;
+}
+
+.lsn_plan_image{
+    width: 100%;
+    height: 100%;
+    border-radius: 12px 12px 0 0;
+    object-fit: contain;
+    padding: 0;
+    margin: 0;
+}
+
+.lsn_plan_profile_image{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    padding: 0;
+    margin: 0;
+}
+
+.lsn_plan_card_container{
+    width: 100%;
+    height: calc(100% - 120px);
+    border-radius: 0 0 12px 12px;
+    position: relative;
+}
+
+.lsn_plan_profile_figure{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    background-color: #FFF;
+    position: absolute;
+    top: -10px;
+    left: 25px;
+}
+
+.lsn_plan_profile_figure.can_view_profile{
+    cursor: pointer;
+}
+
+.lsn_plan_card_name_and_image_container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.lsn_plan_profile_name_box {
+    width: 68%;
+    overflow-wrap: break-word;
+}
+
+.lsn_plan_profile_edit_box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px 3px;
+}
+
+.lsn_plan_card_fake_container {
+    min-height: 30px;
+    width: 30%;
+}
+
+.lsn_plan_profile_name{
+    font-family: 'Mardoto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: normal;
+    color: #777;
+    max-width: 140px;
+    display: inline-block;
+    width: 190px;
+    max-height: 36px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-block;
+}
+
+.lsn_plan_card_body_and_footer_container{
+    height: 77%;
+    width: 100%;
+    padding: 0 25px;
+    border-bottom-right-radius: 13px;
+    border-bottom-left-radius: 13px;
+}
+
+.lsn_plan_card_name {
+    font-family: 'Mardoto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1C1C1C;
+    cursor: pointer;
+    display: inline-block;
+    width: 190px;
+    max-height: 70px;
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    white-space: pre-wrap; /* Поддержка переносов строк */
+    overflow: hidden; /* Скрыть лишний текст */
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* Максимальное количество строк для отображения */
+    -webkit-box-orient: vertical;
+}
+
+.lsn_plan_card_date_container{
+    display: none;
+    margin-bottom: 10px;
+}
+
+.lsn_plan_card_date_icon{
+    width: 14px;
+    height: 14px;
+    margin-right: 14px;
+}
+
+.lsn_plan_card_date{
+    font-family: 'Mardoto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: #777777;
+    text-transform: capitalize;
+    max-width: 160px;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+}
+
+.lsn_plan_card_actions{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lsn_plan_card_views{
+    display: flex;
+    align-items: center;
+    background-color: #E4F0FE;
+    border-radius: 3px;
+    padding: 2px 4px;
+}
+
+.lsn_plan_card_views_icon{
+    width: 10px;
+    height: 8px;
+    margin-right: 3px;
+}
+
+.lsn_plan_card_views_count{
+    font-family: 'Mardoto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    background: linear-gradient(86.71deg, #6AB1FE -1.37%, #2B89EF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    max-width: 130px;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+}
+
+.lsn_plan_card_like_figure{
+    width: 16px;
+    height: 15px;
+}
+
+.lsn_plan_card_like_icon{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+
+.lsn_plan_card_footer_container {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 4px 25px 9px;
+    background-color: #FDFDFD;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+.lsn_plan_card_footer{
+    background: #FDFDFD;
+}
+
+.lsn_plan_card_subject_class_container{
+    display: flex;
+    align-items: start;
+}
+
+.lsn_plan_card_subject_container,
+.lsn_plan_card_class_container{
+    margin-right: 8px;
+    border-radius: 3px;
+    width: fit-content;
+    padding: 2px 4px;
+
+}
+
+.lsn_plan_card_class_container {
+    background-color: #E4F0FE;
+}
+
+
+.lsn_plan_card_class {
+    background: linear-gradient(45deg, #6AB1FE 0%, #2B89EF 100%) !important;
+    background-clip: text !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+}
+
+.lsn_plan_card_subject,
+.lsn_plan_card_class{
+    font-family: 'Mardoto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: normal;
+}
+
+
+.lsn_plan_card_subject {
+    max-width: 115px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+
+}
+
+
+@media screen and (min-width: 100px) and (max-width: 1120px) {
+    .lsn_plan_card_subject {
+        max-width: 100px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+
+    .lsn_plan_card {
+        width: 167px;
+        height: 285px;
+    }
+
+    .lsn_plan_card_name_and_image_container {
+        flex-direction: column;
+        margin-bottom: 12px;
+    }
+
+    .lsn_plan_profile_figure {
+        left: 16px;
+    }
+
+    .lsn_plan_card_name{
+        max-height: 75px;
+        height: 48px;
+        word-wrap: break-word;
+        text-overflow: ellipsis;
+        white-space: pre-wrap; /* Поддержка переносов строк */
+        overflow: hidden; /* Скрыть лишний текст */
+        display: -webkit-box;
+        -webkit-line-clamp: 4; /* Максимальное количество строк для отображения */
+        -webkit-box-orient: vertical;
+    }
+    .lsn_plan_card_footer {
+        padding: 0;
+    }
+}

@@ -1,0 +1,11 @@
+.class_label {
+  font-size: 16px;
+  line-height: 18.75px;
+}
+.open-layout-classes-container {
+  margin-top: 19px;
+}
+.open-layout-classes {
+  display: flex;
+  flex-wrap: wrap;
+}

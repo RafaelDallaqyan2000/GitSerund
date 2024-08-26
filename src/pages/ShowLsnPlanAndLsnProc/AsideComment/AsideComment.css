@@ -1,0 +1,31 @@
+.aside_comment {
+  width: 316px;
+  background-color: #474747;
+  border-radius: 6px;
+  height: calc(100% - 25px);
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 12px;
+  margin: 25px;
+  z-index: 10;
+}
+.aside_comment_container {
+  overflow: auto;
+  padding: 1px;
+  height: calc(100% - 30px);
+}
+
+.aside_comment_container::-webkit-scrollbar {
+  width: 6px;
+}
+
+.aside_comment_container::-webkit-scrollbar-thumb {
+  background: #8c8e92;
+  transition: all 0.4s;
+  border-radius: 7px;
+}
+
+.aside_comment_container::-webkit-scrollbar-thumb:hover {
+  background: #77797c;
+}

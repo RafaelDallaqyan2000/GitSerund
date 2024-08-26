@@ -1,0 +1,89 @@
+.lsn-plan-pdf-link-items {
+    display: flex;
+    margin-left: 36px;
+    margin-top: 14px;
+    position: relative;
+}
+
+.lsn-plan-pdf-link-title {
+    font-family: 'Mardoto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    max-width: 339px;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: flex-end;
+
+    color: #1C1C1C;
+    margin-bottom: 5px;
+}
+
+.lsn-plan-pdf-link-type {
+    font-family: 'Mardoto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: flex-end;
+    color: #7E7E7E;
+}
+
+.lsn-plan-pdf-link-items .checkbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 19px;
+    width: 24px;
+    height: 24px;
+    border-radius: 6px;
+    border: 1px solid lightgrey;
+    padding-left: 2px;
+    overflow: hidden;
+}
+
+.lsn-plan-pdf-link-items .checkbox-custom {
+    display: none;
+}
+
+.lsn-plan-pdf-link-items .checkbox-custom-label {
+    width: 100%;
+}
+
+.lsn-plan-pdf-link-items .checkbox-custom ~ .checkbox-custom-label::before {
+    content: '';
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 3px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.checkbox-custom:checked ~ .checkbox-custom-label::before {
+    width: 18px;
+    height: 18px;
+    color: white;
+    background-color: #8C8E92;
+    content: "\2713";
+}
+
+.file-icon-in-share {
+    position: absolute;
+    right: 13px;
+}
+.texts-from-link-items {
+    word-wrap: break-word;
+    overflow-wrap: anywhere;
+    width: 300px;
+}
+
+@media screen and (max-width: 1120px){
+    .texts-from-link-items {
+        width: 250px ;
+    }
+    }

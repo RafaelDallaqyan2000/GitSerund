@@ -1,0 +1,26 @@
+.open_layout {
+  /* position: absolute; */
+  /* position: absolute; */
+  z-index: 99999;
+  width: 100%;
+  height: 321px;
+  margin-top: 12px;
+  border-radius: 12px;
+  background: #ffffff;
+  box-shadow: 0px 8px 24px rgb(33 91 162 / 21%);
+  padding: 5px 31px 27px 20px;
+}
+
+.open-layout-subject-container {
+  width: 346px;
+}
+.open-layout-arrow {
+  right: 70.08px;
+  position: absolute;
+  top: 73px;
+  margin-left: 10px;
+}
+
+.class-width {
+  width: 100% !important;
+}

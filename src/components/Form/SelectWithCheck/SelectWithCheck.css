@@ -1,0 +1,30 @@
+.select-input {
+  background: url("./icons/arrow.svg") no-repeat !important;
+  background-position: bottom 50% right 5px !important;
+}
+.selected {
+  background: #fff8e8;
+}
+
+.select-item:active {
+  background: #ffdc84 !important;
+}
+
+.select-item:hover {
+  background: #fff8e8 !important;
+}
+
+.select-item {
+  list-style-type: none;
+  margin-left: -32px;
+  padding: 10px;
+  height: 40px;
+
+  /* font-family: Roboto; */
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.0015em;
+  text-align: left;
+}

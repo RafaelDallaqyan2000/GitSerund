@@ -1,0 +1,355 @@
+.layout {
+  background: #f7f8fc;
+  padding: 0 20px;
+  width: calc(100% - 550px);
+  transition: width 0.5s;
+}
+
+.table-container {
+  position: relative;
+  min-height: 500px;
+  max-width: 100%;
+  padding-bottom: 10px;
+}
+
+.right-sidebar-closed ~ .layout {
+  width: calc(100% - 231px);
+}
+
+.layout {
+  min-height: 100vh;
+  margin-left: 230px;
+}
+
+.search-input-container {
+  width: 80%;
+  position: relative;
+  margin: 0 13px 0 12px;
+}
+
+.search_input {
+  height: 48px;
+  width: 100%;
+  border: 1px solid #dfe3e7;
+  border-radius: 12px;
+  padding: 0 50px 0 12.7px;
+}
+
+span.search-icon {
+  position: absolute;
+  right: 14px;
+  top: 14px;
+  width: 17.7px;
+  height: 17.71px;
+  background: url(../../img/search.svg);
+  cursor: pointer;
+}
+
+.open-layout-section-icon {
+  cursor: pointer;
+}
+
+.search_input::placeholder {
+  color: #050505;
+  opacity: 1; /* Firefox */
+  font-size: 15px;
+}
+
+.search_icon {
+  top: 36px;
+  height: 17.7px;
+  width: 17.7px;
+  margin-right: 20px;
+  background: linear-gradient(#5366a2 1.28%);
+  position: absolute;
+  margin-left: 530px;
+}
+
+.chgitem_inchi_btn {
+  height: 48px;
+  width: 48px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 1);
+  border: 1px solid #dfe3e7;
+}
+
+.chgitem_inchi_btn:hover {
+  cursor: pointer;
+}
+
+.top_bar {
+  display: flex;
+  padding-top: 24px;
+  padding-right: 30px;
+}
+
+.see-more {
+  display: none;
+}
+
+.notification_container {
+  width: 48px;
+  height: 48px;
+  border: 1px solid #dfe3e7;
+  border-radius: 12px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px;
+}
+
+.header-mobile-home {
+  display: none;
+}
+
+@media screen and (min-width: 100px) and (max-width: 699px) {
+  .left_sidebar {
+    display: none;
+  }
+  .layout {
+    margin-left: 0;
+    width: 100% !important;
+    padding: 0;
+  }
+}
+/*.right_sidebar {*/
+/*  display: none;*/
+/*}*/
+
+.all_subjects {
+  margin-top: 0;
+}
+.notification_figure {
+  width: 17px;
+  height: 20px;
+  position: relative;
+}
+
+.open-layout-section {
+  width: 48px;
+  height: 48px;
+  border: 1px solid #dfe3e7;
+  border-radius: 12px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.open-layout-section-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.open-layout-section:active {
+  background-color: #9da6c4;
+}
+
+.open-layout-section:active .open-layout-section-icon path {
+  fill: #f9f9fa;
+}
+
+.notification_icon {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.notification_container:active .notification_icon path {
+  fill: #f9f9fa;
+}
+
+.notification_container:active {
+  background-color: #9da6c4;
+}
+
+.notification_dot {
+  position: absolute;
+  right: -4px;
+  top: -3px;
+  width: 12px;
+  height: 12px;
+  background: #ea6670;
+  border-radius: 50%;
+}
+
+@media screen and (min-width: 100px) and (max-width: 699px) {
+  .left_sidebar {
+    display: none;
+  }
+
+  .layout {
+    margin-left: 0;
+    width: 100%;
+    padding: 0;
+  }
+
+  .header-mobile-home {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    left: 0;
+    height: 44px;
+    z-index: 1000;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.05);
+  }
+  .right_sidebar {
+    display: none;
+  }
+
+  .top_bar {
+    display: none;
+  }
+
+  .all_subjects {
+    margin-top: 0;
+  }
+
+  .see-more {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 1.5vw 0;
+    background: rgb(43, 137, 239, 0.2);
+    border-radius: 4px;
+    color: #2b89ef;
+    font-size: 4.3vw;
+    line-height: 8.1vw;
+  }
+
+  .see-more {
+    margin-top: 3vw;
+  }
+}
+
+@media screen and (min-width: 100px) and (max-width: 1120px) {
+  .left_sidebar {
+    display: none;
+  }
+
+  .layout {
+    margin-left: 0;
+    width: 100%;
+    padding: 0;
+  }
+
+  .right-sidebar-closed ~ .layout {
+    width: calc(100%) !important;
+  }
+
+  .right_sidebar {
+    display: none;
+  }
+
+  .top_bar {
+    display: none;
+  }
+
+  .header-mobile-home {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    left: 0;
+    height: 44px;
+    z-index: 1000;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.05);
+  }
+
+  .header-mobile-profile-image {
+    width: 32px;
+    height: 32px;
+    border-radius: 68px;
+    border: 1px solid #9da6c4;
+    position: absolute;
+    right: 20px;
+    top: 5px;
+    overflow: hidden;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header-mobile-log-out {
+    position: absolute;
+    bottom: -60px;
+    right: 10px;
+    background-color: #fff;
+    padding: 8px;
+    cursor: pointer;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 12px;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+  }
+
+  .header-mobile-log-out-text {
+    font-family: Mardoto;
+    color: #1c1c1c;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 13px;
+  }
+
+  .all_subjects {
+    margin-top: 0;
+  }
+
+  .pagination-mobile-display-none {
+    display: none;
+  }
+
+  .see-more {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-radius: 4px;
+    font-family: Mardoto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 10px 29px;
+    border-radius: 6px;
+    background: #e5fff0;
+    margin-top: 23px;
+    cursor: pointer;
+  }
+
+  .see-more > span {
+    background: var(
+      --general,
+      linear-gradient(83deg, #6fd89c 0%, #46b776 100%)
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+@media screen and (min-width: 1121px) and (max-width: 1450px) {
+  .layout {
+    background: #f7f8fc;
+  }
+}
+
+@media only screen and (max-width: 1295px) {
+  .notification_container,
+  .open-layout-section {
+    width: 40px;
+    height: 40px;
+  }
+}

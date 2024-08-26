@@ -1,0 +1,12 @@
+.subjects_container {
+  position: relative;
+}
+
+.subjects_container > img {
+  position: absolute;
+  font-size: 2px;
+  top: 35px;
+  right: -40px;
+  width: 30px;
+  cursor: pointer;
+}

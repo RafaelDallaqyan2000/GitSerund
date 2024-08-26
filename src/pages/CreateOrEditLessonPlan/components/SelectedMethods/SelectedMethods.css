@@ -1,0 +1,12 @@
+.selected_method_container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+@media only screen and (max-width: 810px){
+    .selected_method_container {
+        flex-direction: column;
+        align-items: center;
+    }
+}

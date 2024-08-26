@@ -1,0 +1,93 @@
+.new-lesson-proc-input {
+  width: 500px;
+}
+
+
+.editor-state-response>ul,
+.editor-state-response>ol {
+  padding-inline-start: 25px !important;
+}
+
+.f-mardoto-16 {
+  font-family: 'Mardoto', sans-serif;
+  font-size: 16px;
+  font-weight: normal !important;
+  letter-spacing: 0em;
+  text-align: center;
+  line-height: 25px;
+  color: #4a4a4a;
+}
+
+.modal_title{
+  text-align: center;
+}
+
+.pb-50 {
+  padding-bottom: 50px;
+}
+
+.f-mardoto-22 {
+  font-family: 'Mardoto', sans-serif;
+  font-weight: 400 !important;
+  font-weight: normal;
+  font-size: 22px;
+  word-wrap: break-word;
+  color: #4c4c4c;
+}
+
+.py-10 {
+  padding-bottom: 20px;
+}
+
+.pl-20 {
+  padding-left: 20px;
+}
+
+.send-lesson-process-button {
+  height: 40px !important;
+  width: 200px !important;
+  /* width: 169px !important; */
+  float: right;
+  margin-right: 20px;
+  background: linear-gradient(83.13deg, #6fd89c 0%, #46b776 100%);
+  font-size: 14px !important;
+  color: #fff;
+}
+
+.send-lesson-process-container {
+  padding: 50px 0px 25px 0;
+  background: #fff;
+}
+
+.lesson-process-description-textarea-container {
+  /* margin-bottom: 33px; */
+}
+
+.public-DraftEditorPlaceholder-root {
+  position: unset !important;
+}
+
+
+.timer {
+  margin-top: 4%;
+  margin-left: 4%;
+}
+
+.public-DraftEditorPlaceholder-root {
+  position: unset !important;
+}
+
+.method-title-container {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(83.13deg, #6FD89C 0%, #46B776 100%);
+}
+
+.btn-save-lsn-process {
+  height: 40px !important;
+  width: 169px !important;
+  background: -webkit-linear-gradient(83.13deg, rgba(111, 216, 156, .2) 100%, rgba(70, 183, 118, .2) 0);
+  color: #46b776;
+  pointer-events: all !important;
+  padding: unset !important;
+}

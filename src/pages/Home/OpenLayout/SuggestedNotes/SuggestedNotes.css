@@ -1,0 +1,59 @@
+.open-layout-suggested-notes-container {
+  margin-top: 23px;
+}
+
+.open-layout-suggested-notes-title {
+  font-size: 16px;
+  line-height: 19px;
+}
+.notes {
+  height: 40px;
+  width: 50%;
+  border-radius: 5px;
+  background: #ffffff;
+  box-shadow: 0px 8px 24px rgb(33 91 162 / 21%);
+  border-radius: 12px;
+  border: 1.5px solid #6ab1fe;
+
+  padding: 5px 0 5px 10px;
+  margin-top: 12px;
+}
+
+.save_notes {
+  height: 40px;
+  width: 144px;
+  margin-left: 17px;
+  background: linear-gradient(83.13deg, #6fd89c 0%, #46b776 100%);
+  border-radius: 8px;
+  border: 1px solid;
+  border-image-source: linear-gradient(
+    268.89deg,
+    rgba(255, 255, 255, 0.6) -1.31%,
+    rgba(255, 255, 255, 0) 100.57%
+  );
+  letter-spacing: 0.02em;
+  color: #ffffff;
+   font-family: 'Mardoto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.cancel_btn {
+  height: 40px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.02em;
+  color: #8c8e92;
+  border: none;
+  margin-top: 5px;
+  background: #ffffff;
+}
+
+.save_notes,
+.cancel_notes :focus {
+  cursor: pointer;
+}

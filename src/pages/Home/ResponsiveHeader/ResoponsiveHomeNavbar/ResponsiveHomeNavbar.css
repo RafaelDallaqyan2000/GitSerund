@@ -1,0 +1,12 @@
+.home-mobile-navbar {
+    margin-top: 44px;
+    padding: 16px 20px 0 0;
+    display: none;
+}
+
+.home-mobile-navbar-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 100%;
+}

@@ -1,0 +1,80 @@
+.minute-for-proc {
+  border-radius: 6px;
+  background: #ffffff;
+  border: 1.5px solid #93c7ff;
+  position: absolute;
+}
+
+.input-timer {
+  width: 155px !important;
+  height: 40px;
+  padding-left: 30px !important;
+}
+
+.time-and-saveBtn {
+  display: flex;
+  position: relative;
+  /* padding-top: 50px; */
+  /* bottom: 6%; */
+}
+
+/* .btn-done-lsn-process {
+  height: 40px !important;
+  width: 169px !important;
+  opacity: 0.5;
+  border-radius: 6px;
+  font-size: 16px;
+  line-height: 19px;
+  margin-right: 20px;
+  position: absolute;
+  right: 62px;
+  background: linear-gradient(83.13deg, #6fd89c 0%, #46b776 100%) !important;
+  color: white !important;
+  border: none;
+  background: #46b776 !important;
+} */
+
+.components-for-proces {
+  background: #ffffff;
+  /* position: absolute; */
+  border-left: 1px solid #dfe3e7;
+  /* border-bottom: 1px solid #dfe3e7; */
+  /* right: 0px; */
+  /* bottom: 14%; */
+  /* top: 89px; */
+  /* width: 75%; */
+  /* padding-left: 30px;/ */
+  padding: 22px 0 22px 30px;
+  /* overflow-y: auto; */
+}
+
+.list-action-for-proc {
+  width: 241px;
+  /* height: 109px; */
+  background-color: #ffffff;
+  box-shadow: 0px 4px 7px #ddddde;
+  border-radius: 12px;
+  /* margin-left: 12%; */
+  padding: 9px 10px 11px 8px;
+  /* padding-top: 10px; */
+  position: absolute;
+  /* margin-top: -24px;*/
+}
+
+/* .save-lsn-proc :hover {
+  cursor: pointer;
+} */
+
+.proc-header {
+  margin: 41px 0 0 39px;
+
+  font-size: 22px;
+  line-height: 26px;
+  color: rgb(140 142 146);
+  width: 700px;
+}
+.proc-header::placeholder {
+  color: rgba(140, 142, 146, 1);
+
+  opacity: 1;
+}

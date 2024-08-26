@@ -1,0 +1,92 @@
+.comment_body {
+    width: 100%;
+    color: #fff;
+    display: flex;
+    margin: 8px 0;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    cursor: pointer;
+    padding-top: 10px;
+}
+
+.comment_body.border{
+    border-top: 1px solid rgba(255, 255, 255, 0.13);
+}
+
+.comment_avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+    outline: 1px solid #c0bebe;
+}
+
+.comment_avatar_img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.comment_body_header {
+    width: 241px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.comment_body_name {
+    font-family: Mardoto, sans-serif;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    width: 180px;
+    word-wrap: break-word;
+}
+
+.comment_body_date {
+    font-family: MardotoRegular, sans-serif !important;
+    font-style: normal;
+    font-size: 12px !important;
+    line-height: 16px !important;
+    letter-spacing: 0.02em !important;
+    color: rgba(255, 255, 255, 0.51) !important;
+    text-transform: none !important;
+
+}
+
+.comment_text {
+    font-family: MardotoRegular, sans-serif;
+    font-style: normal;
+    font-size: 11px;
+    line-height: 16px;
+    margin-top: 7px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    line-break: anywhere;
+}
+
+.comment_body_container {
+    width: calc(100% - 40px);
+}
+
+.comment_type_container {
+    width: 180px;
+    height: 24px;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    border-radius: 12px;
+    padding-left: 8px;
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.comment_type {
+    font-family: 'Mardoto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}

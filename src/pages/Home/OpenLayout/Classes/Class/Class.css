@@ -1,0 +1,26 @@
+.number {
+  height: 45px;
+  width: 45px;
+  border-radius: 20px;
+  background: #ffffff;
+  border: 1.5px solid #93c7ff;
+  box-sizing: border-box;
+   font-family: 'Mardoto', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+  color: #2b89ef;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.selected-number {
+  background: linear-gradient(86.71deg, #6ab1fe -1.37%, #2b89ef 100%);
+  color: #ffffff;
+}
+
+.number :hover {
+  cursor: pointer;
+}

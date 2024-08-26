@@ -1,0 +1,42 @@
+.blackboard-container {
+  width: 100%;
+}
+
+.blackboard-img-container {
+  display: flex;
+  margin-top: 12px;
+}
+
+.blackboard-img-container .board {
+  margin-right: 12px;
+  cursor: pointer;
+}
+
+.blackboard-img-container .board:hover {
+  opacity: 0.9;
+}
+
+.comment-container-from-student {
+  align-self: center;
+}
+
+.clarifying-guiding-points {
+  font-family: "Mardotto" sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.balckboard {
+  align-self: center;
+  margin-left: 11px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.lesson-plan-pdf-item {
+  /* background-color: red; */
+  padding: "0 0 20px 0";
+  display: flex;
+}

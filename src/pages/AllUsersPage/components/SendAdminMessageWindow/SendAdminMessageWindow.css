@@ -1,0 +1,111 @@
+.send-admin-message-container {
+    width: 100%;
+    height: 227px;
+    background: #ffffff;
+    border: 1px solid #DFE3E7;
+    border-radius: 12px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.send-admin-message-container .input-message {
+    width: 96%;
+    margin-top: 47px;
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.send-admin-message-container .input-message input {
+    background: #FFFFFF;
+    outline: 1.5px solid #93C7FF;
+    border-radius: 5px;
+    width: 95%;
+    height: 50px;
+    padding: 16px;
+    margin-left: 16px;
+}
+.send-admin-message-container .input-message img {
+    margin-left: 8px;
+}
+
+.send-admin-message-container > div > input:focus {
+    border: none !important;
+    outline: 2.5px solid #93C7FF;
+}
+
+.send-admin-message-container .input-user-name {
+    width: 96%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.send-admin-message-container .input-user-name input {
+    height: 50px;
+    background: #FFFFFF;
+    outline: 1.5px solid #93C7FF;
+    border-radius: 5px;
+    width: 95%;
+    padding: 16px;
+    margin-left: 8px;
+
+}
+
+.buttons-on-send-admin-message {
+    width: 96%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 34px;
+    margin-top: 8px;
+}
+
+.buttons-on-send-admin-message .button-on-message-window-admin-page {
+    width: 144px;
+    height: 40px;
+    background: linear-gradient(83.13deg, #6FD89C 0%, #46B776 100%) !important;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #fff;
+    padding: 0;
+    /*display: flex;*/
+    /*justify-content: c;*/
+}
+.buttons-on-send-admin-message .disable-button-on-message-window-admin-page {
+    width: 144px;
+    height: 40px;
+    background: #DADADA;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #fff;
+    padding: 0;
+}
+
+.buttons-on-send-admin-message > span {
+    font-family: 'Mardoto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    cursor: pointer;
+    color: #8C8E92;
+}
+
+.check-all-users {
+    position: relative;
+}
+.check-all-users span {
+    position: absolute;
+    left: 50px;
+    width: 300px;
+    /*background: red;*/
+}

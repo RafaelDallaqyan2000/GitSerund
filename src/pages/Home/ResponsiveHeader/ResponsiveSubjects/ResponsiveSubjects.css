@@ -1,0 +1,6 @@
+.subjectItemContainer {
+    padding: 14px 14px 4px 0;
+    display: flex;
+    gap: 12px;
+    overflow: auto;
+}

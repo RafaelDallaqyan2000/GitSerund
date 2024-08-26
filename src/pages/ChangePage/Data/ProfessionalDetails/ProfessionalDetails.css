@@ -1,0 +1,60 @@
+.prof_details_label{
+    font-family: 'Mardoto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1C1C1C;
+    margin-bottom: 32px;
+}
+
+@media screen and  (max-width:700px)  {
+
+    .select-label-prof-details {
+        font-size: 4vw !important;
+        line-height: 5.9vw !important;
+    }
+    .multi-select-input-prof-details {
+        font-size: 3.5vw !important;
+        line-height: 3.5vw !important;
+    }
+
+}
+
+@media screen and (min-width:701px) and (max-width:1120px)  {
+    .multiselect-with-multiselect {
+        width: 100% !important;
+    }
+    .selected-item-container {
+        height: unset !important;
+        padding: 10px !important;
+    }
+    .select-label-prof-details {
+        font-size: 3vw !important;
+        line-height: 3.9vw !important;
+    }
+    .multi-select-input-prof-details {
+        font-size: 3vw !important;
+        line-height: 3vw !important;
+    }
+    .profile-backg-mobile {
+        background-color: #FFFFFF;
+        min-height: 100vh;
+    }
+    .select-item-title {
+        padding-left: 30px !important;
+        font-size: 14px !important;
+    }
+
+    .select-item-container {
+        margin: 15px;
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media screen and  (min-width:1120px)  {
+    .multiselect-with-multiselect {
+        width: 100% !important;
+    }
+}

@@ -1,0 +1,47 @@
+.left_sidebar_subject{
+    width: 95%;
+    border-radius: 0 12px 12px 0;
+    margin-bottom: 7px;
+    display: flex;
+    align-items: center;
+    min-height: 48px;
+    padding: 0 24px;
+    cursor: pointer;
+    opacity: 0.65;
+    transition: all .4s;
+}
+.left_sidebar_subject_clone {
+    width: 10%;
+    /*padding: 27px 24px;*/
+    margin-bottom: 7px;
+    min-height: 54px;
+    /*display: none;*/
+}
+
+.left_sidebar_subject.active_subject {
+    width: 100%;
+    /*padding: 0 34px;*/
+    opacity: 1;
+    border-radius: 0 12px 12px 0;
+
+}
+
+
+.left_sidebar_subject:nth-last-child(1){
+    margin-bottom: 0;
+}
+
+.left_sidebar_subject_icon{
+    width: 24px;
+    height: 24px;
+    margin: 0 12px 0 0;
+}
+
+.left_sidebar_subject_name{
+    font-family: 'Mardoto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    color: #FFFFFF;
+}

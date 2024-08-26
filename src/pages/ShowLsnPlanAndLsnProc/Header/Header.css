@@ -1,0 +1,377 @@
+.header-lsn-plan-and-proc {
+  background: #3a4e8a;
+  height: 74px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 9px 0 28px;
+  align-items: center;
+}
+
+.show-lesson-plan-header-author-data {
+  display: flex;
+  align-items: center;
+  cursor: default;
+}
+
+.backImageInHeader {
+  margin-right: 75px;
+  cursor: pointer;
+  border-radius: 55%;
+  padding: 2.5px;
+}
+
+.backImageInHeader:hover {
+  background-color: rgba(37, 54, 103, 0.8);
+}
+
+.show-lesson-plan-header-text {
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  font-size: 16px;
+  color: #ffffff;
+  line-height: 33px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 200px;
+}
+
+.show-lesson-plan-header-actions-container {
+  display: flex;
+}
+
+.show-lesson-plan-header-actions-item {
+  margin-right: 7px;
+  cursor: pointer;
+  position: relative;
+}
+
+.show-lesson-plan-header-actions-item-dot {
+  position: absolute;
+  top: -2px;
+  right: -2px;
+  border-radius: 50%;
+  background-color: #fc0000;
+  width: 8px;
+  height: 8px;
+}
+
+.header-desc1 {
+  /* margin-left: 16px; */
+  /* margin-top: 19px; */
+}
+
+.header-object {
+  /* margin-top: 19px; */
+}
+
+.btn-download1 {
+  height: 36px;
+  width: 36px;
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 12px;
+  cursor: pointer;
+  color: #ffffff;
+  margin-right: 10px;
+  text-align: center;
+}
+
+.btn-heart {
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(223, 227, 231, 0.5);
+  box-sizing: border-box;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-right: 10px;
+  height: 36px;
+  width: 36px;
+}
+
+.printer-btn {
+  height: 36px;
+  width: 36px;
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 12px;
+  cursor: pointer;
+  color: #ffffff;
+  text-align: center;
+}
+
+.btn-link {
+  height: 50px;
+  width: 70px;
+  border-radius: 12px;
+  background: linear-gradient(86.71deg, #6ab1fe -1.37%, #2b89ef 100%);
+}
+
+.vertical-line {
+  opacity: 0.6;
+  border: 1px solid #d9dee3;
+  height: 49.5px;
+  margin: 0 20px;
+}
+
+.point {
+  width: 5px;
+  height: 5px;
+  margin-top: 15px;
+  margin-right: 10px;
+}
+
+.newCommentDiv {
+  position: relative;
+}
+
+.redRound {
+  width: 8px;
+  height: 8px;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+  top: -2px;
+  right: -2px;
+}
+
+.redRoundInActionComment {
+  width: 8px;
+  height: 8px;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+  top: 1px;
+  right: 1px;
+}
+
+.greenRoundInActionComment {
+  width: 8px;
+  height: 8px;
+  background-color: limegreen;
+  border-radius: 50%;
+  position: absolute;
+  top: 1px;
+  right: 1px;
+}
+
+.greenAndRedRoundInActionComment {
+  width: 8px;
+  height: 8px;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+  top: 1px;
+  right: 1px;
+}
+
+.redAndGreenRoundInActionComment {
+  width: 8px;
+  height: 8px;
+  background-color: limegreen;
+  border-radius: 50%;
+  position: absolute;
+  top: 1px;
+  right: 6px;
+}
+
+.show-lesson-plan-icon-background {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(223, 227, 231, 0.5);
+  border-radius: 8px;
+  cursor: pointer;
+  margin-right: 7px;
+  position: relative;
+}
+
+.lesson_plan_id {
+  display: flex;
+  align-items: center;
+}
+
+.lesson_plan_id_figure {
+  height: 10px;
+  margin-right: 12px;
+}
+
+.lesson_plan_id_figure > img {
+  margin: 0;
+}
+
+.lesson_plan_id_icon {
+  height: 100%;
+  width: 100%;
+}
+
+.lesson_plan_id_number {
+  font-family: "Mardoto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.show-lesson-plan-menu-toggle {
+  display: none;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+.show-lesson-plan-menu-toggle.open_toggle {
+  transform: rotateZ(90deg);
+}
+
+.show-lesson-plan-menu-toggle-icon {
+  width: 100%;
+  height: 100%;
+}
+
+.show-lesson-plan-mobile-logo {
+  display: none;
+  margin: 0 auto;
+  width: 39px;
+  height: 39px;
+}
+
+.show-lesson-plan-mobile-logo-icon {
+  width: 100%;
+  height: 100%;
+}
+
+.show-lesson-plan-icon-label {
+  display: none;
+  font-family: "Mardoto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  margin-left: 10px;
+  max-width: calc(100% - 55px);
+}
+
+.show-lesson-plan-icon-container {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+}
+
+.show-share-lsn-plan-success-text {
+  font-family: Mardoto, sans-serif;
+  background: #2e324d;
+  color: #fff;
+  position: absolute;
+  bottom: -30px;
+  left: -10px;
+  width: 80px;
+  text-align: center;
+  font-size: 12px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.show-lesson-plan-icon-link {
+  display: flex;
+  align-items: center;
+}
+
+.show-lesson-plan-checked-scroll-screen {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px 0;
+  background-color: #ffffff;
+}
+.show-lesson-plan-checked-scroll-screen span {
+  font-family: Mardoto;
+  padding-bottom: 11px;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #8c8e92;
+  cursor: pointer;
+}
+
+.activeCheckedItem {
+  color: #2b89ef !important;
+  border-bottom: 3px solid #2b89ef;
+}
+
+@media only screen and (max-width: 1120px) {
+  .activeCheckedItem {
+    border: none;
+  }
+
+  .if-mobile-display-none {
+    display: none !important;
+  }
+  .show-lesson-plan-icon-container {
+    margin-bottom: 32px;
+    width: 200px;
+  }
+
+  .show-lesson-plan-icon-label {
+    display: unset;
+    margin-left: 8px;
+  }
+
+  .show-lesson-plan-header-actions-item {
+    display: none;
+  }
+
+  .show-lesson-plan-menu-toggle {
+    display: unset;
+  }
+
+  .header-lsn-plan-and-proc {
+    width: 100%;
+    height: 44px;
+    padding-left: 9px;
+  }
+
+  .show-lesson-plan-header-actions-container {
+    display: flex;
+    flex-direction: column;
+    position: absolute !important;
+    top: 44px;
+    left: 0;
+    width: 100%;
+    height: 100dvh;
+    background-color: #3a4e8a;
+    padding: 30px 10px 30px 30px;
+    z-index: 1;
+    max-width: 320px;
+  }
+
+  .show-lesson-plan-header-author-data {
+    display: none;
+  }
+
+  .show-lesson-plan-mobile-logo {
+    display: unset;
+  }
+  .show-lesson-plan-checked-scroll-screen {
+    padding-bottom: 0;
+  }
+  .show-lesson-plan-checked-scroll-screen-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .show-lesson-plan-active-item-line {
+    height: 2px;
+    width: 62px;
+    background-color: #2b89ef;
+    box-shadow: 0px 2px 4px 0px rgba(74, 156, 246, 0.38);
+  }
+}

@@ -1,0 +1,131 @@
+.types {
+    width: 100%;
+    display: flex;
+    margin-top: 21px;
+}
+
+.user_avatar {
+    border-radius: 50%;
+    outline: 1px solid #c0bebe;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    overflow: hidden;
+}
+
+.user_avatar_img {
+    width: 100%;
+    height: 100%;
+}
+
+.user_name {
+    font-family: 'Mardoto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 12px;
+    margin-top: 6px;
+    width: 230px;
+    word-wrap: break-word;
+}
+
+.types_body {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px 0 4px 8px;
+    width: 232px;
+    height: 24px;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.types_body.highlightTypes{
+    border: 1px solid #EA6670;
+}
+
+.types_text {
+    height: 16px;
+    font-family: 'Mardoto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.types_arrow_box {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.types_arrow {
+    width: 10px;
+    height: 5px;
+}
+
+.types_list {
+    position: absolute;
+    width: 100%;
+    border-radius: 12px;
+    background-color: #2B2B2B;
+    left: 0;
+    z-index: 999;
+    display: none;
+    list-style-type: none;
+    margin-left: 0;
+}
+@media screen and (min-width: 1121px) {
+    .types_list {
+        top: calc(100% + 4px);
+    }
+    .proc-desc img {
+        height: 100%;
+    }
+}
+@media screen and (max-width: 1120px){
+    .types_list {
+        bottom: calc(100% + 4px);
+    }
+}
+
+.types_body .types_list.show {
+    display: block;
+    margin-left: 0;
+}
+
+.types_item {
+    font-family: 'Mardoto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    padding: 4px 0 4px 16px;
+    transition: all .4s;
+    cursor: pointer;
+}
+
+.types_item:nth-child(1) {
+    border-radius: 12px 12px 0 0;
+}
+
+.types_item:nth-last-child(1) {
+    border-radius: 0 0 12px 12px;
+}
+
+.types_item:hover {
+    background-color: #404040;
+}
+

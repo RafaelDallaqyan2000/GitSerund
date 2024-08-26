@@ -1,0 +1,24 @@
+.profile_wrapper{
+    padding: 70px 0;
+    width: 844px;
+    margin: 0 auto;
+    position: relative;
+}
+
+@media only screen and (max-width: 1500px) {
+    .profile_wrapper{
+        width: 740px;
+    }
+}
+
+@media only screen and (max-width: 1355px) {
+    .profile_wrapper{
+        width: 650px;
+    }
+}
+
+@media only screen and (max-width: 1295px) {
+    .profile_wrapper{
+        width: 100%;
+    }
+}

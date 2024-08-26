@@ -1,0 +1,34 @@
+.default_confirm {
+    width: 450px;
+    position: fixed;
+    top: 90px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 50px;
+    padding-bottom: 20px;
+    z-index: 1000;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.alert_styles {
+    width: 450px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 50px;
+    padding-bottom: 20px;
+    z-index: 1000;
+    border-radius: 15px;
+}
+.background_back {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 5000;
+}

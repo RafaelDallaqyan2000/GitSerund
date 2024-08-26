@@ -1,0 +1,261 @@
+.popup-password-deskt .popup-password-header {
+  display: flex;
+  justify-content: center;
+  margin-top: 23px;
+  color: #050505;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.change-password-input {
+  display: flex;
+  justify-content: center;
+}
+
+.line_div {
+  display: flex;
+  margin: 5px 0 0 0;
+}
+.checkBar {
+  margin: 5px 5px 0 0;
+}
+.red {
+  background-color: rgb(187, 11, 11);
+  width: 17.5%;
+  height: 3px;
+}
+
+.yellow {
+  background-color: rgb(248, 248, 34);
+  width: 40%;
+  height: 3px;
+}
+
+.orange {
+  background-color: orange;
+  width: 60%;
+  height: 3px;
+}
+
+.green {
+  background-color: #3cc894;
+  width: 80%;
+  height: 3px;
+}
+
+.save-password-popup {
+  font-size: 16px;
+  width: 344px;
+  height: 50px;
+  border-radius: 5px;
+  background: linear-gradient(83.13deg, #6fd89c 0%, #46b776 100%);
+  border: #ffffff;
+  color: white;
+  cursor: pointer;
+}
+
+.wrong-password {
+  margin-bottom: 15px;
+  margin: 12px 15px 20px;
+  /* padding-top: 15px; */
+  font-size: 12px;
+  color: red;
+  height: 0px;
+}
+
+.change-password {
+  text-decoration: underline !important;
+  /* background-color: #F7F8FC; */
+  /* color:  #2B89EF; */
+  font-size: 16px;
+  margin-top: 24px;
+}
+
+.personal-data-texts {
+  font-size: 16px;
+}
+
+.phone-persn-dtls-deskt {
+  display: flex !important;
+}
+.phone-persn-dtls-mobile {
+  display: none !important;
+}
+.phone-input {
+  display: block !important;
+}
+
+.phone_select-persn-det {
+  width: 77px !important;
+}
+
+.phone_input-persn-det {
+  /*width: 31.6vw !important;*/
+  margin-left: 10px;
+}
+.popup-password-deskt {
+  display: block;
+}
+.popup-password-mobile {
+  display: none;
+}
+
+.openDropdownIcon {
+  right: -13px;
+}
+
+@media screen and (min-width: 100px) and (max-width: 699px) {
+  .personal-detials-select {
+    width: 100% !important;
+  }
+  .personal-details-form {
+    width: 100% !important;
+  }
+  .select-input-personal-details {
+    font-size: 4vw !important;
+    line-height: 5.9vw !important;
+    height: -moz-fit-content;
+    height: fit-content !important;
+    padding: 13px 16px !important;
+  }
+  .select-cont-phone-details {
+    margin: 5vw 0 0 0 !important;
+  }
+  .select-label-personal-details {
+    font-size: 4vw !important;
+    line-height: 5.9vw !important;
+  }
+  .select-input-personal {
+    font-size: 4vw !important;
+    line-height: 5.9vw !important;
+    height: -moz-fit-content;
+    height: fit-content;
+    padding: 11px 16px;
+  }
+  .phone-persn-dtls-deskt {
+    display: none !important;
+  }
+  .phone-persn-dtls-mobile {
+    display: block !important;
+  }
+  .phone-label-mobile-persn-det {
+    font-size: 4vw !important;
+    line-height: 5.9vw !important;
+  }
+  .phone_select-persn-det {
+    width: 30vw !important;
+  }
+  .phone_input-persn-det {
+    width: 60vw !important;
+    margin-left: 2vw !important;
+  }
+  .phone-input {
+    display: none !important;
+  }
+  .mt-20-persn-det {
+    padding: 0 !important;
+  }
+  .change-password {
+    font-size: 5vw;
+    line-height: 5vw;
+    margin-top: 7.5vw;
+  }
+  .popup-password-deskt {
+    display: none;
+  }
+  .popup-password-mobile {
+    display: block;
+  }
+  .padding-top-persn-det {
+    padding-top: 5.3vw;
+  }
+  .profile-backg-mobile {
+    background-color: #ffffff;
+    min-height: 100vh;
+  }
+  .select-content,
+  .phone-content {
+    margin: 5vw 0 0 0 !important;
+  }
+}
+
+@media screen and (min-width: 700px) and (max-width: 1120px) {
+  .personal-detials-select {
+    width: 100% !important;
+  }
+  .personal-details-form {
+    width: 100% !important;
+  }
+  .select-input-personal-details {
+    font-size: 3vw !important;
+    line-height: 4.9vw !important;
+    height: -moz-fit-content;
+    height: fit-content !important;
+    padding: 19px 20px !important;
+  }
+  .select-cont-phone-details {
+    margin: 5vw 0 0 0 !important;
+  }
+  .select-label-personal-details {
+    font-size: 2.9vw !important;
+    line-height: 4.9vw !important;
+  }
+  .select-input-personal {
+    font-size: 4vw !important;
+    line-height: 5.9vw !important;
+    height: -moz-fit-content;
+    height: fit-content;
+    padding: 11px 16px;
+  }
+  .phone-persn-dtls-deskt {
+    display: none !important;
+  }
+  .phone-persn-dtls-mobile {
+    display: block !important;
+  }
+  .phone-label-mobile-persn-det {
+    font-size: 4vw !important;
+    line-height: 5.9vw !important;
+  }
+  .phone_select-persn-det {
+    width: 30vw !important;
+  }
+  .phone_input-persn-det {
+    width: 60vw !important;
+    margin-left: 2vw !important;
+  }
+  .phone-input {
+    display: none !important;
+  }
+  .mt-20-persn-det {
+    padding: 0 !important;
+  }
+  .change-password {
+    font-size: 3vw;
+    line-height: 4vw;
+    margin-top: 4.5vw;
+  }
+  .popup-password-deskt {
+    display: none;
+  }
+  .popup-password-mobile {
+    display: block;
+  }
+  .padding-top-persn-det {
+    padding-top: 5.3vw;
+  }
+  .profile-backg-mobile {
+    background-color: #ffffff;
+    min-height: 100vh;
+  }
+  .select-content,
+  .phone-content {
+    margin: 5vw 0 0 0 !important;
+  }
+}
+
+@media screen and(min-width:1341px) {
+  .phone_select-persn-det {
+    width: 77px !important;
+  }
+}

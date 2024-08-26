@@ -1,0 +1,224 @@
+.tableContainer {
+  margin-top: 30px;
+}
+
+.tableContainer .check-all-users {
+  display: flex;
+  align-items: center;
+  margin-bottom: 13px;
+}
+.tableContainer .check-all-users span {
+  font-family: "Mardoto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  /* identical to box height */
+  display: flex;
+  align-items: flex-end;
+
+  /* Inactive */
+  color: #8c8e92;
+}
+.tableContainer table {
+  width: 88.7%;
+  border-collapse: collapse;
+  margin-left: 10px;
+  caption-side: top;
+  empty-cells: hide;
+  table-layout: auto;
+}
+
+.tableContainer .tr {
+  display: table-row;
+  background-color: #fff;
+}
+.tableContainer td {
+  font-family: "Mardoto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+}
+.tableContainer .firstTd img {
+  width: 29px;
+  height: 29px;
+  background-color: #fff;
+  border-radius: 50%;
+  border: 1px solid gray;
+}
+.tableContainer .thead {
+  display: table-row;
+}
+.tableContainer .thead th {
+  font-family: "Mardoto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: rgba(57, 58, 60, 0.5);
+  /* identical to box height */
+  text-transform: uppercase;
+}
+
+.tableContainer .td span {
+  vertical-align: -5px;
+  margin-left: 14px;
+}
+
+.tableContainer th,
+.tableContainer .td {
+  padding: 15px;
+  text-align: left;
+}
+
+.tableContainer .firstTd {
+  font-family: "Mardoto", sans-serif;
+  border-radius: 10px 0 0 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+}
+.tableContainer .secondTd {
+  font-family: "Mardoto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #8c8e92 !important;
+  letter-spacing: 0.2px;
+}
+.tableContainer .lastTd {
+  border-radius: 0 10px 10px 0;
+  text-align: end;
+  position: relative;
+}
+
+.tableContainer .lastTdImageContainer {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  /*padding: 18px;*/
+  border-radius: 50%;
+}
+
+/*alert*/
+.adminPageAlert {
+  width: 360px;
+  position: fixed;
+  top: 184px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  z-index: 5000;
+  padding: 20px;
+  border-radius: 12px;
+}
+.adminPageAlert .alertTitle {
+  font-family: "Mardoto", sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #1c1c1c;
+  margin-bottom: 20px;
+  width: calc(100% - 20px);
+}
+.adminPageAlert .alertText {
+  font-family: "Mardoto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  color: rgba(5, 5, 5, 0.5);
+  margin-bottom: 20px;
+  white-space: pre-wrap; /* Поддержка переносов строк */
+  overflow: hidden; /* Скрыть лишний текст */
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* Максимальное количество строк для отображения */
+  -webkit-box-orient: vertical;
+}
+.adminPageAlert .alertButtons {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+.adminPageAlert .alertButtons button {
+  font-family: "Mardoto", sans-serif;
+  min-width: 117px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  justify-content: center;
+  padding: 11px 5px 10px;
+  border-radius: 6px;
+}
+.adminPageAlert .alertButtons .alertCancelBtn {
+  color: #8c8e92;
+}
+.adminPageAlert .alertButtons .alertSuccessBtn {
+  color: #ffffff;
+  background: linear-gradient(83.13deg, #6fd89c 0%, #46b776 100%);
+}
+
+.tableContainer .checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 24px;
+  width: 24px;
+  height: 24px;
+  border-radius: 6px;
+  border: 1px solid lightgrey;
+  overflow: hidden;
+}
+.tableContainer .checkbox-custom {
+  display: none;
+}
+.tableContainer .checkbox-custom ~ .checkbox-custom-label::before {
+  content: "";
+  text-align: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 3px;
+  /*background-color: #fff;*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.tableContainer .checkbox-custom:checked ~ .checkbox-custom-label::before {
+  width: 18px;
+  height: 18px;
+  left: 0;
+  color: white;
+  background-color: #8c8e92;
+  content: "\2713";
+}
+
+.tableContainer .lastTdImageContainer:hover {
+  background-color: #8c8e9224;
+}
+
+.lastTdOptionContainer {
+  background-color: #ffffff;
+  box-shadow: 0 2px 10px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  padding: 12px 8px;
+  min-width: 216px;
+  width: 216px;
+  height: 60px;
+  top: 55px;
+  position: absolute;
+  right: -5px;
+  z-index: 100;
+  display: flex;
+  cursor: pointer;
+}

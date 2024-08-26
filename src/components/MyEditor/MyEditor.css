@@ -1,0 +1,100 @@
+.myEditor {
+  width: 100%;
+  position: relative;
+}
+
+.rdw-editor-wrapper {
+  width: 100% !important;
+  margin: 0 !important;
+}
+.rdw-editor-wrapper > div {
+  /*width: 70%;*/
+}
+.rdw-colorpicker-wrapper {
+  display: none !important;
+}
+
+.rdw-embedded-modal-size {
+  display: none !important;
+}
+.rdw-editor-toolbar {
+  margin-bottom: 0 !important;
+  font-size: 15px !important;
+  overflow-y: unset;
+}
+.rdw-editor-main {
+  border-right: 1px solid #f1f1f1;
+  border-left: 1px solid #f1f1f1;
+  border-bottom: 1px solid #f1f1f1;
+  padding: 0 10px;
+}
+
+/*all button*/
+.rdw-dropdown-selectedtext {
+  min-width: 50px;
+}
+
+/*image url button*/
+.rdw-embedded-wrapper {
+  display: none !important;
+}
+
+.rdw-remove-wrapper {
+  display: none !important;
+}
+
+.rdw-editor-wrapper ::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+.rdw-editor-wrapper ::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+.rdw-editor-wrapper ::-webkit-scrollbar-thumb {
+  background: #a49f9f;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.rdw-wrapper-8385 ::-webkit-scrollbar-thumb:hover {
+  background: #969696;
+}
+
+/*Font type*/
+.rdw-block-dropdown {
+  width: 125px !important;
+}
+
+.tox .tox-editor-header {
+  z-index: 0 !important;
+}
+
+/*hide upload image from left sidevar on popup*/
+.tox-dialog__body-nav {
+  display: none !important;
+}
+
+.myEditor iframe {
+  position: relative;
+}
+
+.placeholderTinymce {
+  background-color: #fff;
+  position: absolute;
+  top: 50px;
+  line-height: 1.4;
+  margin: 1rem;
+  color: #adadad;
+  overflow: scroll;
+  width: 97%;
+  max-height: 100px;
+}
+
+.placeholderTinymce :where(a, strong, p, ol, li) {
+  pointer-events: none;
+  color: #adadad;
+}

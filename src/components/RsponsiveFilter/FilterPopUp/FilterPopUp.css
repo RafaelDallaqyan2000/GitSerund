@@ -1,0 +1,225 @@
+@media screen and (max-width: 1120px){
+    .responsiveFilterPopUpContainer {
+        background-color: #FFFFFF;
+        margin-top: 12px;
+        margin-right: 20px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 12px;
+        border: 1px solid #DFE3E7;
+        padding-bottom: 8px;
+        width: 100%;
+    }
+
+    .responsiveLabelForFilter {
+        color: #8C8E92;
+        font-family: Mardoto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .responsiveFooterFromFilter {
+        margin-top: 12px;
+        display: flex;
+        gap: 34px;
+        align-items: center;
+    }
+
+    .responsiveFilterCancelBtn {
+        width: 144px;
+        height: 40px;
+        flex-shrink: 0;
+        border-radius: 6px;
+        background: linear-gradient(83deg, #6FD89C 0%, #46B776 100%);
+        font-family: Mardoto;
+        color: #FFF;
+        text-align: center;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .filterKeyWordsSearchContainer {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        margin-top: 12px;
+    }
+
+
+    .responsiveInputClassName {
+        width: 300px !important;
+        font-weight: 700;
+        border: 2.5px solid #DFE3E7;
+        color: #6C6C6C;
+    }
+
+    .responsiveFilterSearchInput {
+        width: 300px;
+        height: 50px;
+        border: 2.5px solid #DFE3E7; ;
+        border-radius: 5px;
+        padding-left: 17px;
+        font-size: 15px;
+        cursor: pointer;
+        text-overflow: ellipsis;
+        padding-right: 35px;
+    }
+
+    .table-container-mobile {
+        padding: 16px 0px 16px 16px;
+    }
+
+    /* lsn plan card responsive style */
+
+    .lsn_plan_card_article_container {
+        /*gap: 16px;*/
+        margin: 8px;
+    }
+
+    .lsn_plan_card {
+        overflow: hidden;
+    }
+
+    .lsn_plan_card_options_container {
+        display: none;
+    }
+
+    .lsn_plan_card_date_icon {
+        margin-right: 4px;
+    }
+
+    .lsn_plan_figure {
+        height: 80px;
+    }
+
+    .lsn_plan_image {
+        object-fit: cover;
+    }
+
+    .lsn_plan_card_footer_container {
+        bottom: -40px;
+        padding: 0px 16px 9px;
+        font-size: 13px;
+    }
+
+    .lsn_plan_profile_name_box {
+        position: static;
+    }
+
+    .lsn_plan_profile_name {
+        font-family: Mardoto;
+        color: #000;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        width: 160px;
+        padding-left: 16px;
+        white-space: nowrap;
+        display: inline-block;
+    }
+
+    .lsn_plan_card_subject_class_container {
+        font-family: Mardoto;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .lsn_plan_card_fake_container {
+        padding-top: 24px;
+    }
+
+    .lsn_plan_profile_edit_box {
+        padding: 0 16px 10px;
+    }
+
+    .lsn_plan_card_body_and_footer_container {
+        padding: 0 16px;
+        height: 64px;
+
+    }
+    .lsn_plan_card_name {
+        font-family: Mardoto;
+        width: 100%;
+        height: 65px;
+        color: #1C1C1C;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 16px;
+    }
+
+    /* table row style */
+
+    .table-row-content-mobile {
+        padding: 15px;
+        margin: 6px 0;
+        border-radius: 4px;
+    }
+
+    .picture-width {
+        width: 46px;
+    }
+
+    .picture_in_table-mobile {
+        width: 29px !important;
+        height: 29px !important;
+        border-radius: 50%;
+    }
+
+    .table-title-for-ellipsis-mobile {
+        color: #1C1C1C;
+        font-family: Mardoto;
+        font-size: 12px !important;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 19.5px;
+    }
+
+    .class-width-in-table {
+        width: 59px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    .columns-mobile {
+        font-size: 12px;
+    }
+
+    .lsn_plan_profile_figure {
+        top: -20px;
+    }
+
+    .lsn_plan_card_fake_container {
+        min-height: 0;
+    }
+
+    .lsn_plan_card_name_and_image_container {
+        margin-bottom: 8px;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .responsiveInputClassName, .responsiveFilterSearchInput {
+        width: 100% !important;
+        padding: 0 5px;
+    }
+
+    .responsiveFooterFromFilter {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        gap: 0;
+    }
+}
+

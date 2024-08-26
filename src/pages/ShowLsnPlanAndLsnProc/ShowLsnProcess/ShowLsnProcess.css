@@ -1,0 +1,405 @@
+.header-lesn-proc {
+  width: 100%;
+  height: 100%;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 26px;
+  min-height: 106px;
+  /* margin-top: 30px; */
+  padding-left: 16px;
+  padding-top: 40px;
+  margin: 0 0 10px 0;
+  background-color: #ffffff;
+  border-top: 1px solid #dfe3e7;
+  border-bottom: 1px solid #dfe3e7;
+}
+
+.lesson-process-methodName {
+  font-family: "MardotoBlack" sans-serif;
+  font-weight: 800;
+  background: #3a4e8a;
+  color: #fff;
+  padding: 10px;
+  /*text-align: center;*/
+  margin-top: 35px;
+}
+
+.lesson-proces-row {
+  display: flex;
+  flex-direction: column;
+  padding: 16px 0 10px 0;
+  word-break: break-word;
+}
+
+.lesson-proces-row + .lesson-proces-row {
+  border-top: 1px solid rgba(164, 164, 164, 1);
+}
+
+.lesson-proces-row a {
+  color: #0a66b7;
+}
+.lesson-proces-row ul,
+.lesson-proces-row ol {
+  margin-left: 20px;
+}
+
+.process-text {
+  /* padding: 16px 40px 16px 16px; */
+  /*width: 100%;*/
+  margin-right: 94px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  color: #4a4a4a;
+  background-color: #ffffff;
+}
+
+.student-proc-desc {
+  padding-top: 11px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  margin-left: -40px;
+  line-height: 20px;
+  color: #4a4a4a;
+}
+
+.pdf_studentAction {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.all_sections-student-description {
+  display: flex;
+}
+.numbersInLessonPlan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  margin-right: 12px;
+
+  font-family: "Mardoto", sans-serif;
+  font-size: 20px;
+  line-height: 23px;
+  background-color: #ececec;
+  color: #4a4a4a;
+}
+
+.sections-student-description {
+  width: 100%;
+  background-color: rgba(129, 213, 165, 1);
+  display: flex;
+  align-items: flex-start;
+  border-radius: 25px;
+  color: rgba(28, 28, 28, 1);
+  padding: 3px 10px 3px 3px;
+}
+
+.board {
+  width: 256px;
+}
+
+.sections-student-description > p {
+  font-weight: 700;
+  line-height: 19px;
+  color: #1c1c1c;
+  font-size: 16px;
+  width: 100%;
+  margin: 0 0 0 13px;
+  align-self: center;
+}
+
+.student-proc-title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #1c1c1c;
+  padding-top: 14px;
+}
+
+.imageDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1px;
+  width: 34px !important;
+  height: 34px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.55);
+}
+.clone-image-div {
+  display: none;
+}
+
+.sections-teacher {
+  padding: 0 0 0 21px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sections-teacher-description {
+  background-color: rgba(250, 197, 138, 1);
+  display: flex;
+  border-radius: 25px;
+  padding: 3px 15px 3px 3px;
+  margin-bottom: 10px;
+  align-items: center;
+  min-height: 40px;
+}
+.sections-teacher-description-undefined {
+  display: flex;
+  padding: 3px 15px 3px 3px;
+  margin: 0 4px 10px 0;
+  align-items: center;
+  justify-content: flex-end;
+  min-height: 40px;
+}
+.section-teacher-description-text {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #4e2b03;
+  padding-left: 10px;
+  width: calc(100% - 53px);
+}
+
+.proc-desc-title {
+  font-family: Mardoto;
+  color: #4a4a4a;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.proc-desc {
+  /*width: 720px;*/
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #4a4a4a;
+}
+.proc-desc img {
+  max-width: 350px;
+}
+
+.description-time {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(86.71deg, #6ab1fe -1.37%, #2b89ef 100%);
+  min-width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  font-family: "Mardoto";
+  margin-left: 7px;
+}
+
+.process-text img {
+  max-width: 710px;
+}
+
+.header-lesn-proc .commentForm {
+  position: relative;
+  margin-top: 18px;
+  display: flex;
+  width: 455px;
+  margin-bottom: 20px;
+  padding-left: 16px;
+}
+
+.header-lesn-proc .commentForm img {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+}
+
+.filesDiv {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 700px;
+}
+
+.fileDiv {
+  display: flex;
+  align-items: center;
+  padding: 10px 10px 10px 0;
+}
+.btnComment_comment {
+  position: relative;
+}
+.lessonProcess-methodName-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 5px 0;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  font-family: MardotoRegular;
+  font-weight: 700;
+  background-color: #b1bcdf;
+}
+
+.process-text-two {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  color: #4a4a4a;
+  margin-top: 16px;
+}
+.process-text-two .child_two img {
+  max-width: 700px;
+}
+
+p > br {
+  display: none;
+}
+figure > img {
+  margin: 10px 0;
+}
+
+.student-action-container {
+  width: 100%;
+}
+
+@media screen and (max-width: 1120px) {
+  .pdf-responsive-action-container a {
+    color: #0a66b7 !important;
+  }
+  .section-teacher-description-text {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .process-text-two .child_two img {
+    max-width: 500px;
+  }
+
+  .process-text-two a {
+    color: red;
+  }
+}
+@media screen and (max-width: 972px) {
+  .process-text-two .child_two img {
+    max-width: 500px;
+  }
+}
+@media screen and (max-width: 924px) {
+  .process-text-two .child_two img {
+    max-width: 300px;
+  }
+}
+@media screen and (max-width: 1120px) {
+  .pdf_student_and_teacher_action_container {
+    flex-wrap: wrap;
+  }
+  .header-lesn-proc {
+    border: none;
+    padding-top: 20px;
+    margin: 0;
+    min-height: 0;
+  }
+  .lesson-process-methodName {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+    font-family: Mardoto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    padding: 0;
+  }
+
+  .numbersInLessonPlan {
+    display: none;
+  }
+
+  /* student action */
+
+  .all_sections-student-description {
+    width: 100%;
+  }
+
+  .student-action-container {
+    padding: 16px 0;
+  }
+
+  .pdf_studentAction {
+    width: 100%;
+    align-items: flex-start;
+  }
+
+  .sections-student-description {
+    width: 100%;
+    border-radius: 12px 12px 12px 0;
+    position: relative;
+  }
+
+  .sections-student-description p {
+    width: 100%;
+    margin: 0 4px 4px 0;
+  }
+
+  .sections-student-description .imageDiv {
+    position: absolute;
+    bottom: 12px;
+    left: 1px;
+  }
+
+  .clone-image-div {
+    display: inline;
+    height: 34px;
+    width: 34px;
+  }
+  .sections-student-description .clone-image-div {
+    width: 47px;
+  }
+  .student-proc-desc {
+    width: 100%;
+    padding-top: 5px;
+    margin-left: 0;
+  }
+
+  /*teacher action*!*/
+
+  .sections-teacher-description {
+    flex-direction: row-reverse;
+    position: relative;
+    border-radius: 12px 12px 0px 12px;
+    padding: 0;
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 4px;
+  }
+
+  .sections-teacher-description .imageDiv {
+    position: absolute;
+    bottom: 12px;
+    right: 2px;
+  }
+
+  .description-time {
+    display: none;
+  }
+  .board {
+    margin: 0 0 5px;
+  }
+  .proc-desc img {
+    max-width: 330px;
+  }
+}

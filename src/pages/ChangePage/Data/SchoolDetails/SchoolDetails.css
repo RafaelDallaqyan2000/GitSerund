@@ -1,0 +1,97 @@
+@media screen and (min-width:100px) and (max-width:699px)  {
+    .school-detials-select {
+        width: 100% !important;
+    }
+    .school-details-form {
+        width: 100% !important;
+        background-color: #FFFFFF;
+        padding: 1.9vw 3.7vw 8.4vw 3.7vw;
+        margin: 0 !important;
+    }
+    .select-input-school-details {
+        font-size: 4vw !important;
+        line-height: 5.9vw !important;
+        height: -moz-fit-content;
+        height: fit-content !important;
+        padding:13px 16px !important;
+    }
+    .select-label-school-details {
+        font-size: 4vw !important;
+        line-height: 5.9vw !important;
+    }
+    .profile-backg-mobile {
+        background-color: #FFFFFF;
+        min-height: 100vh;
+    }
+    .select-content {
+        margin: 5vw 0 0 0 !important;
+    }
+}
+
+@media screen and (min-width:700px) and (max-width:1120px)  {
+    .school-detials-select {
+        width: 100% !important;
+    }
+    .school-details-form {
+        width: 100% !important;
+        background-color: #FFFFFF;
+        padding: 1.9vw 3.7vw 4.4vw 3.7vw;
+        margin: 0 !important;
+    }
+    .select-input-school-details {
+        font-size: 3vw !important;
+        line-height: 4.2vw !important;
+        height: -moz-fit-content;
+        height: fit-content !important;
+        padding: 17px 20px !important;
+    }
+    .select-label-school-details {
+        font-size: 2.9vw !important;
+        line-height: 4.9vw !important;
+    }
+    .profile-backg-mobile {
+        background-color: #FFFFFF;
+        min-height: 100vh;
+    }
+    .select-content {
+        margin: 5vw 0 0 0 !important;
+    }
+}
+
+.loading_spinner_container {
+    display: flex;
+    justify-content: right;
+}
+
+.loading_spinner {
+    width: 40px;
+    height: 40px;
+    display: grid;
+    border-radius: 50%;
+    -webkit-mask: radial-gradient(farthest-side,#0000 40%,#b9b9b9 41%);
+    background: linear-gradient(0deg ,rgba(185,185,185,0.5) 50%,rgba(185,185,185,1) 0) center/3.2px 100%,
+    linear-gradient(90deg,rgba(185,185,185,0.25) 50%,rgba(185,185,185,0.75) 0) center/100% 3.2px;
+    background-repeat: no-repeat;
+    animation: loading_spinner-d3o0rx 1s infinite steps(12);
+}
+
+.loading_spinner::before,
+.loading_spinner::after {
+    content: "";
+    grid-area: 1/1;
+    border-radius: 50%;
+    background: inherit;
+    opacity: 0.915;
+    transform: rotate(30deg);
+}
+
+.loading_spinner::after {
+    opacity: 0.83;
+    transform: rotate(60deg);
+}
+
+@keyframes loading_spinner-d3o0rx {
+    100% {
+        transform: rotate(1turn);
+    }
+}

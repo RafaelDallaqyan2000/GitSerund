@@ -1,0 +1,17 @@
+.mobile-responsive-header {
+    display: none;
+    position: sticky;
+    z-index: 100;
+    background-color: #F7F8FC;
+    top: 44px;
+    margin-left: 20px;
+}
+
+@media screen and (min-width: 100px) and (max-width: 1120px) {
+    .mobile-responsive-header {
+        display: block !important;
+    }
+    .home-mobile-navbar {
+        display: block !important;
+    }
+}

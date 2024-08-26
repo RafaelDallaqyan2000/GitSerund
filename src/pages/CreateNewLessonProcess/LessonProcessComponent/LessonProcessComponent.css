@@ -1,0 +1,95 @@
+.lesson-process-component-title {
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.desc {
+  width: 386px;
+  border: 1px dashed #2b89ef;
+  border-radius: 54px;
+  /* margin-top: 33px; */
+  /* padding: 11px 13px; */
+  padding: 11px 13px 11px 42px;
+  min-height: 41px;
+  line-height: 24px;
+
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.desc::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgba(43, 137, 239, 0.6);
+
+  opacity: 1; /* Firefox */
+}
+
+.desc::before {
+  content: url(../../../img/tag.svg);
+}
+
+.lesson-process-desc-icon {
+  position: absolute;
+  left: 13px;
+  /* top: 16px; */
+  top: 32%;
+  width: 16px;
+  height: 15.81px;
+  background: url(../../../img/tag.svg);
+  cursor: pointer;
+}
+
+.process-header {
+  resize: none;
+  overflow: hidden;
+  min-height: 50px;
+}
+.process-header {
+}
+.btn-save-lsn-process {
+  height: 40px !important;
+  width: 169px !important;
+  font-size: 14px !important;
+
+  background: -webkit-linear-gradient(
+    83.13deg,
+    rgba(111, 216, 156, 0.2) 100%,
+    rgba(70, 183, 118, 0.2) 100%
+  );
+  color: #46b776;
+  cursor: not-allowed;
+  pointer-events: all !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: unset !important;
+
+}
+
+.method-save-btn {
+  font-size: 14px !important;
+}
+.enable-save {
+  /* background: red !important; */
+  cursor: pointer;
+}
+.enable-save:hover {
+  /* background: red !important; */
+
+  /* background: -webkit-linear-gradient(
+    83.13deg,
+    rgba(111, 216, 156) 100%,
+    rgba(70, 183, 118) 100%
+  ); */
+border: 1.5px solid;
+
+border-color: linear-gradient(83.13deg, #6FD89C 0%, #46B776 100%);
+
+
+  transition: 0.3s;
+}
+
+.finish-process-container {
+  /* height: 176px; */
+  border-left: 1px solid #dfe3e7;
+}

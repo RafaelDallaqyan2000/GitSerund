@@ -1,0 +1,85 @@
+.multiselect-with-multiselect li:hover {
+    background: #f7f7f7;
+}
+
+.multiselect-with-multiselect li {
+    padding: 4px;
+}
+
+.multiselect-with-multiselect {
+    position: absolute;
+    background: #fff;
+    width: 344px;
+    box-shadow: 0 0 10px -4px #757575;
+    z-index: 2;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.select-placeholder {
+    color: #757575;
+}
+
+.multiselect-with-check-input.multiselect-with-check-input-mobile {
+    height: 50px !important;
+    width: 100%;
+    border: 1.5px solid #93C7FF;
+}
+
+.multiselect-with-check-input.multiselect-with-check-input-mobile.open_select {
+    border: 2.5px solid #93C7FF;
+}
+
+.select-placeholder.select-width.multi-select-input-for-mobile {
+    font-size: 15px !important;
+    position: relative;
+    cursor: pointer;
+    text-overflow: ellipsis;
+}
+
+.select-placeholder {
+    font-size: 15px;
+    position: relative;
+    cursor: pointer;
+    text-overflow: ellipsis;
+}
+
+.selected-item-text {
+    font-family: 'Mardoto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #8C8E92;
+}
+
+.multiselect-with-multiselect.multiselect-with-multiselect-desktop {
+    border: 2.5px solid #93C7FF;
+    border-top: 0;
+}
+
+.multiselect-with-multiselect.multiselect-with-multiselect-desktop::-webkit-scrollbar {
+    width: 7px;
+}
+
+.multiselect-with-multiselect.multiselect-with-multiselect-desktop::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+.multiselect-with-multiselect.multiselect-with-multiselect-desktop::-webkit-scrollbar-thumb {
+    background: #B7B7B7;
+    border-radius: 10px;
+}
+
+.multiselect-with-multiselect.multiselect-with-multiselect-desktop::-webkit-scrollbar-thumb:hover {
+    background: #a4a4a4;
+}
+
+.multiselect-checkbox-label {
+    margin-right: 10px;
+}
+
+.select-item-container {
+    cursor: pointer;
+}
+

@@ -1,0 +1,44 @@
+.lsn-plan-pdf-item-responsive-container {
+    width: 100%;
+}
+
+.lsn-plan-pdf-item-responsive-first-child {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #B1BCDF;
+}
+
+.lsn-plan-pdf-item-responsive-title {
+    color: #000;
+    font-family: Mardoto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-bottom: 4px;
+}
+
+.lsn-plan-pdf-item-responsive-text {
+    color: #000;
+    font-family: Mardoto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 4px;
+}
+
+@media screen and (max-width: 1120px){
+    .lsn-plan-pdf-item-responsive-text {
+        width: 90%;
+    }
+    .lsn-plan-pdf-item-responsive-text img {
+        max-width: 300px;
+        max-height: 300px;
+    }
+    .pdf-responsive-action-container img {
+        max-height: 300px;
+        max-width: 300px;
+    }
+}

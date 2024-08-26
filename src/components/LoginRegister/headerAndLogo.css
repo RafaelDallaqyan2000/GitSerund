@@ -1,0 +1,135 @@
+.container {
+  width: 100%;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.photo {
+  position: fixed;
+  max-height: 100vh;
+  width: 50%;
+  height: 100vh;
+  background: url("../../images/campus1.png") no-repeat;
+  border-radius: 0 20px 20px 0;
+  background-position: center;
+  background-size: cover;
+}
+.photo-campus {
+  position: fixed;
+  max-height: 100vh;
+  width: 50%;
+  height: 100vh;
+  /* background: linear-gradient(88.37deg, rgba(31, 38, 61, 0.46) 1.28%, rgba(9, 14, 54, 0.46) 100%);  */
+  border-radius: 0 20px 20px 0;
+  /* backdrop-filter: blur(5px);  */
+}
+.vector {
+  margin-left: 71px;
+}
+
+.gitserund {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.photo_items {
+  margin-top: -10px;
+  height: 100vh;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: fixed;
+
+  width: 50%;
+}
+
+.login_header {
+  width: 50%;
+  float: right;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+}
+
+.header_inner {
+  width: 100%;
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.nav_link {
+  padding-bottom: 9px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 38px 23px;
+  position: relative;
+  color: #737373;
+  text-decoration: none;
+  transition: color 0.2s linear;
+  font-size: 15px;
+}
+
+.nav_link:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 3px;
+  display: none;
+  background-color: #2b89ef;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1;
+}
+
+.is-active {
+  border-bottom: 2px solid #2b89ef;
+  color: #2b89ef;
+  width: 93px;
+  text-align: center;
+}
+
+.nav_link:hover {
+  color: #2b89ef;
+}
+
+.nav_link:hover:after {
+  display: block;
+}
+
+.change-language-container {
+  position: absolute;
+  right: 60px;
+  cursor: pointer;
+}
+
+.earth-icon .languagePopUpContainer {
+  height: 100px;
+  top: 35px;
+  left: -95px;
+}
+
+.logo-name {
+  padding-top: 50px;
+  font-size: 33px;
+  font-weight: 500;
+  color: #FFF;
+}
+
+@media screen and (max-width: 700px) {
+  .change-language-container {
+    top: -40px;
+    right: 7px;
+  }
+}
+
+@media screen and (min-width: 200px) and (max-width: 700px) {
+  .photo_items {
+    display: none;
+  }
+}

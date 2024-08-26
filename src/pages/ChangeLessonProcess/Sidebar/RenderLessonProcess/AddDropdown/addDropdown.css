@@ -1,0 +1,14 @@
+.process-select {
+  padding: 12px 0 13px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.process-select:hover {
+  background: rgba(240, 242, 254, 1);
+}
+.disable-process-select {
+  cursor: not-allowed !important;
+  pointer-events: none !important;
+  color: #8c8e92;
+}

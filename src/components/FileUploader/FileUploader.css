@@ -1,0 +1,29 @@
+.file-uploader {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.file-delete {
+  cursor: pointer;
+  box-shadow: 0 4px 7px #ddddde;
+  border-radius: 12px;
+  height: 25px;
+  text-align: center;
+  display: none;
+  margin-left: 15px;
+  padding-bottom: 30px;
+}
+
+.file-uploader:hover > .file-delete {
+  display: inherit;
+}
+
+.file-link {
+  font-size: 12px;
+  padding-left: 10px;
+}
+
+.file-icon {
+  height: 30px;
+}

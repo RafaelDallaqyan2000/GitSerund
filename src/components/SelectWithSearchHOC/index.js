@@ -1,0 +1,1 @@
+export {SelectWithSearchHOC} from './SelectWithSearchHOC';

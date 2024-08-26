@@ -1,0 +1,311 @@
+.proc_header {
+    margin-top: 30px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    padding-right: 30px;
+    color: #050505;
+    width: 100%;
+}
+
+.start {
+    font-size: 16px;
+    line-height: 28px;
+    color: #8c8e92;
+    padding-right: 10px;
+}
+
+.range-numbers {
+    font-size: 12px;
+    line-height: 28px;
+    color: #8c8e92;
+    display: flex;
+    padding-right: 40px;
+    padding-left: 10px;
+}
+
+.sideBar-for-plan {
+    background-color: #f7f8fc;
+    width: 26%;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    top: 89px;
+    padding-top: 20px;
+    overflow-y: auto;
+}
+
+.ul {
+    list-style-type: none;
+    z-index: 100;
+}
+
+.activeClass {
+    color: #283c79;
+    background-color: #f0f2fe;
+}
+
+.content {
+    position: absolute;
+    right: 5px;
+    left: 353px;
+}
+
+nav a:nth-child(1).activeClass::before {
+    background-color: var(--color-1);
+}
+
+nav a:nth-child(2).activeClass::before {
+    background-color: var(--color-2);
+}
+
+nav a:nth-child(3).activeClass::before {
+    background-color: var(--color-3);
+}
+
+nav a:nth-child(4).activeClass::before {
+    background-color: var(--color-4);
+}
+
+nav a:nth-child(1).active {
+    color: var(--color-1);
+}
+
+nav a:nth-child(2).active {
+    color: var(--color-2);
+}
+
+nav a:nth-child(3).active {
+    color: var(--color-3);
+}
+
+nav a:nth-child(4).active {
+    color: var(--color-4);
+}
+
+nav a {
+    transition: all 0.3s;
+}
+
+nav a.activeClass::before {
+    position: absolute;
+    left: 10px;
+    content: url(../../img/sidebarActiveItemRectangle.svg);
+}
+
+.lesson-plan-section {
+    border: 1px solid #dfe3e7;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    padding: 28px 40px 45px 40px;
+}
+
+.title_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+}
+
+.title {
+    font-size: 16px;
+    line-height: 19px;
+    color: #8c8e92;
+}
+
+.sub_title {
+    font-size: 16px;
+    line-height: 19px;
+    color: #8c8e92;
+    font-weight: 350;
+    font-family: sans-serif;
+}
+
+.required_text {
+    font-weight: 350;
+    font-size: 16px;
+    line-height: 18.75px;
+    color: #ea6670;
+    padding-right: 36px;
+    font-family: sans-serif;
+}
+
+.components {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    top: 89px;
+    width: 74%;
+    overflow-y: scroll;
+    background-color: #f7f8fc;
+}
+
+.unchanged-desc {
+    width: 386px;
+    border: 1px dashed #2b89ef;
+    border-radius: 54px;
+    margin-top: 30px;
+    padding: 14px 45px 14px 50px;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.shape {
+    border: none;
+    margin-left: 15px;
+    position: absolute;
+    margin-top: 45px;
+}
+
+.delete {
+    width: 28px;
+    height: 28px;
+    background: #ffffff;
+    box-shadow: 0 2px 7px #ddddde;
+    border-radius: 20px;
+    border: none;
+    margin-top: 5px;
+}
+
+.delete :hover {
+    cursor: pointer;
+}
+
+.line {
+    border: none;
+    width: 24px;
+    height: 24px;
+}
+
+.btn-save-lsn-plan {
+    height: 40px;
+    width: 169px;
+    border-radius: 6px;
+    font-size: 16px;
+    line-height: 19px;
+    background: linear-gradient(83.13deg, #6fd89c 0%, #46b776 100%);
+    color: white;
+    border: none;
+}
+
+.btn-done-lsn-plan {
+    height: 40px;
+    width: 169px;
+    border-radius: 6px;
+    font-size: 16px;
+    line-height: 19px;
+    margin-right: 30px;
+    border: none;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    color: white;
+    background-color: #46B776;
+}
+
+.save-lsn-plan :hover {
+    cursor: pointer;
+}
+
+input[type="file"] {
+    width: 24px;
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.delete-file {
+    cursor: pointer;
+    box-shadow: 0px 4px 7px #ddddde;
+    border-radius: 12px;
+    height: 25px;
+    text-align: center;
+    display: none;
+    margin-left: 15px;
+    padding-bottom: 30px;
+}
+
+.attch-files:hover > .delete-file {
+    display: inherit;
+}
+
+.delete-file-btn {
+    border: none;
+    background: #ffffff;
+    color: rgba(234, 102, 112, 1);
+    padding-bottom: 10px;
+    margin-left: 5px;
+}
+
+.attch-files {
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.attch-files :hover .delete-file {
+    display: block;
+    background-color: red;
+}
+
+.lesson-plan-footer {
+    position: sticky;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 15%;
+    background-color: white;
+    border: 1px solid #dfe3e7;
+    border-radius: 5px;
+    z-index: 9999;
+}
+
+@media only screen and (max-width: 810px) {
+    .lesson_plan_sidebar {
+        width: 30% !important;
+    }
+
+    .components {
+        width: 70%;
+    }
+
+    .input_and_select {
+        width: 100%;
+    }
+    .required_text {
+        font-size: 14px;
+    }
+    .sub_title {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .components {
+        width: 100%;
+        left: 0;
+        right: unset;
+    }
+
+    .lesson-plan-footer {
+        width: 100%;
+        left: 0;
+        right: unset;
+    }
+}
+
+@media only screen and (max-width: 525px){
+    .title {
+        font-size: 14px;
+    }
+    .required_text {
+        font-size: 12px;
+    }
+    .sub_title {
+        font-size: 12px;
+    }
+}

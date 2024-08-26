@@ -1,0 +1,31 @@
+.title {
+    font-family: "Mardoto";
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-bottom: 1px solid #B1BCDF;
+    padding-bottom: 4px;
+    overflow-wrap: break-word
+}
+
+.childItemText {
+    font-family: "Mardoto";
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 4px;
+    overflow-wrap: break-word;
+}
+
+.childItemText img {
+    max-width: 300px;
+}
+
+.childItemText a {
+    color: #0a66b7;
+    text-decoration: underline #0a66b7;
+}

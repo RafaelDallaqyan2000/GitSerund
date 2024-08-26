@@ -1,0 +1,368 @@
+.current-page {
+  padding: 37px 0 30px 30px;
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+  /* width: 83%; */
+  left: 231px;
+  top: 0px;
+  background-color: #f7f8fc;
+  overflow-y: auto;
+}
+
+.header-current-page {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.img_container {
+  margin-top: 22px;
+  display: flex;
+}
+
+.custom-img-upload {
+  border: 1px dashed #cad0de;
+  display: inline-block;
+  background-color: #cad0de;
+  /* padding: 35px 8px 9px 42px; */
+  color: #757575;
+  /* cursor: pointer; */
+  line-height: 40px;
+  width: 144px;
+  height: 144px;
+  border-radius: 8px;
+}
+
+.xik {
+  background: #ffffff;
+  border: 2px solid #f7f8fc;
+  box-sizing: border-box;
+  color: red;
+  width: 42px;
+  height: 42px;
+  border-radius: 21px;
+  display: flex;
+  justify-content: center;
+  padding-top: 12px;
+
+  margin-left: -26px;
+  margin-top: -10px;
+}
+
+.x-icon {
+  display: none;
+}
+
+.marduk {
+  padding: 7px;
+  box-shadow: 0px 4px 21px 7px rgb(219 223 238 / 29%);
+  border-radius: 12px;
+  background-color: rgb(255, 255, 255);
+}
+
+.upload-img {
+  background: #ffffff;
+  border: 1px solid #dfe3e7;
+  box-sizing: border-box;
+  border-radius: 5px;
+  height: 50px;
+}
+
+.label-image-upload {
+  display: inline-block;
+  color: #8c8e92;
+  cursor: pointer;
+  width: 195px;
+  height: 50px;
+  font-size: 16px;
+  align-content: center;
+  text-align: center;
+}
+
+.img-format {
+  padding-left: 2px;
+  color: #8c8e92;
+  font-size: 14px;
+  line-height: 16px;
+  padding-top: 9px;
+  width: 110%;
+}
+
+.uploaded_image_profile {
+  width: 144px;
+  height: 144px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.image_profile {
+  border: 1px dashed #cad0de;
+  display: inline-block;
+  background-color: #cad0de;
+  color: #757575;
+  /* cursor: pointer; */
+  line-height: 40px;
+  width: 144px;
+  height: 144px;
+  border-radius: 8px;
+}
+
+.image_backic {
+  display: inline-block;
+  background-color: #cad0de;
+  color: #757575;
+  /* cursor: pointer; */
+  line-height: 40px;
+  width: 144px;
+  height: 144px;
+  border-radius: 8px;
+}
+
+.upload-profile-picture-container {
+  width: 244px;
+  margin-left: 41px;
+  height: 160px;
+  padding: 41px 0 44px 0;
+}
+
+.upload-profile-picture-container-mobile {
+  display: none !important;
+}
+
+.header-mobile-school-details {
+  display: none;
+}
+
+@media screen and (min-width: 100px) and (max-width: 699px) {
+  .header-mobile-school-details {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    background-color: #3a4e8a;
+    display: flex;
+    justify-content: center;
+    left: 0;
+    height: 44px;
+    z-index: 1;
+  }
+
+  .display-none-schoole-details {
+    display: none;
+  }
+
+  .current-page {
+    padding: 0 0 0 0;
+    /* position: fixed;
+        left: 0;
+        right: 0; */
+    position: unset;
+  }
+
+  .header-current-page {
+    font-size: 6.8vw;
+    line-height: 8.1vw;
+    margin-top: 44px;
+    margin-left: 3.7vw;
+  }
+
+  .img-format {
+    /* padding-left: 2px; */
+    color: #8c8e92;
+    font-size: 4.3vw;
+    line-height: 5vw;
+    margin-top: 6.2vw;
+  }
+
+  .upload-profile-picture-container {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    height: fit-content;
+  }
+
+  .upload-profile-picture-container {
+    display: none;
+  }
+
+  .upload-profile-picture-container-mobile {
+    display: flex !important;
+  }
+
+  .custom-img-upload-change-page {
+    width: fit-content !important;
+    height: fit-content !important;
+  }
+
+  element.style {
+  }
+
+  .img_container {
+    justify-content: center;
+  }
+
+  .image_backic {
+    width: 31.8vw;
+    height: 31.8vw;
+  }
+
+  .x-icon {
+    width: 6.6vw;
+    height: 6.6vw;
+    position: absolute;
+    right: -1vw;
+    top: -2vw;
+    display: block;
+  }
+
+  .marduk {
+    position: relative;
+  }
+
+  .xik {
+    display: none;
+  }
+
+  .empty-picture {
+    padding: 1.5vw !important;
+  }
+
+  .empty-picture-icon {
+    width: 30vw;
+    height: 30vw;
+  }
+
+  .padding-top-profile-page {
+    padding-top: 0;
+  }
+
+  .img_container {
+    margin-top: 10vw;
+  }
+
+  .select_container {
+    margin: 5vw 0 0 0;
+  }
+}
+
+@media screen and (min-width: 700px) and (max-width: 1120px) {
+  .header-mobile-school-details {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    background-color: #3a4e8a;
+    display: flex;
+    justify-content: center;
+    left: 0;
+    height: 44px;
+    z-index: 1;
+  }
+
+  .display-none-schoole-details {
+    display: none;
+  }
+
+  .current-page {
+    padding: 0 0 0 0;
+    /* position: fixed;
+        left: 0;
+        right: 0; */
+    position: unset;
+  }
+
+  .header-current-page {
+    font-size: 4.8vw;
+    line-height: 6.1vw;
+    margin-top: 44px;
+    margin-left: 3.7vw;
+  }
+
+  .img-format {
+    color: #8c8e92;
+    font-size: 2.9vw;
+    line-height: 3vw;
+    margin-top: 3.2vw;
+  }
+
+  .upload-profile-picture-container {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    height: fit-content;
+  }
+
+  .upload-profile-picture-container {
+    display: none;
+  }
+
+  .upload-profile-picture-container-mobile {
+    display: flex !important;
+  }
+
+  .custom-img-upload-change-page {
+    width: fit-content !important;
+    height: fit-content !important;
+  }
+
+  element.style {
+  }
+
+  .img_container {
+    justify-content: center;
+  }
+
+  .image_backic {
+    width: 28.8vw;
+    height: 28.8vw;
+  }
+
+  .x-icon {
+    width: 6.6vw;
+    height: 6.6vw;
+    position: absolute;
+    right: -1vw;
+    top: -2vw;
+    display: block;
+  }
+
+  .marduk {
+    position: relative;
+  }
+
+  .xik {
+    display: none;
+  }
+
+  .empty-picture {
+    padding: 1.5vw !important;
+  }
+
+  .empty-picture-icon {
+    width: 30vw;
+    height: 30vw;
+  }
+
+  .padding-top-profile-page {
+    padding-top: 0;
+  }
+
+  .img_container {
+    margin-top: 7vw;
+  }
+
+  .select_container {
+    margin: 5vw 0 0 0;
+  }
+}
+
+@media screen and (min-width: 1121px) and (max-width: 1340px) {
+  .img-format {
+    font-size: 1vw;
+    line-height: 1.1vw;
+    padding-top: 0.6vw;
+  }
+}

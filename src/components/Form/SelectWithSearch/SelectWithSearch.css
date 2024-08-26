@@ -1,0 +1,128 @@
+.input_and_select {
+  /*background-color: #00bbff;*/
+  width: 300px;
+  height: 50px;
+  border: 1.5px solid #93c7ff;
+  border-radius: 5px;
+  padding-left: 17px;
+  font-size: 15px;
+  position: relative;
+  caret-color: transparent;
+  text-overflow: ellipsis;
+  padding-right: 40px;
+}
+
+.input_and_select:disabled {
+  border: 1.5px solid #dfe3e7 !important;
+  background-color: #eceef0;
+}
+
+.caret_down_icon {
+  position: absolute;
+  right: 2px;
+  bottom: 10px;
+  padding: 10px 16px;
+  background-color: #fff;
+}
+
+.label_on_input {
+  font-family: "Mardoto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 19px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  grid-gap: 8px;
+  gap: 8px;
+  color: #1c1c1c;
+  position: relative;
+}
+
+.option_container {
+  position: absolute;
+  width: 100%;
+  max-height: 250px;
+  background-color: #fff;
+  top: 80px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow-y: scroll;
+  z-index: 100;
+}
+.option_container.read_only {
+  /*todo check, wather it works with this*/
+  /*top: 50px;*/
+}
+
+.option_container::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+.option_container::-webkit-scrollbar-thumb {
+  width: 2px;
+  background: #bdbdbd;
+  border-radius: 15px;
+}
+
+.option_container div {
+  padding: 16px 16px;
+  font-family: "Mardoto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  line-break: anywhere;
+  /* identical to box height */
+  letter-spacing: 0.15px;
+  color: #6c6c6c;
+  transition: all 0.4s;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.option_container div:hover,
+option.active_item {
+  cursor: pointer;
+  background-color: rgba(217, 216, 216, 0.42);
+}
+
+@media screen and (max-width: 1350px) {
+  .input_and_select {
+    width: 260px;
+    height: 50px;
+    border: 1.5px solid #93c7ff;
+    border-radius: 5px;
+    padding-left: 17px;
+    font-size: 15px;
+    position: relative;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .input_and_select {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .input_and_select {
+    width: 150px;
+  }
+}
+
+.obligatory_input {
+  border: 1.5px solid #ea6670;
+}
+.obligatory_text {
+  font-family: "Mardoto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: #ea6670;
+  position: absolute;
+}

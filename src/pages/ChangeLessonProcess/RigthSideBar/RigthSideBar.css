@@ -1,0 +1,71 @@
+.create-new-lesson-process-right-sidebar-container {
+    width: 25%;
+    background-color: #FFF;
+    height: calc(100vh - 89px);
+    position: fixed;
+    border-right: 1px solid #dfe3e7;
+    border-top: 1px solid #dfe3e7;
+    right: 0;
+}
+.create-new-lesson-process-right-sidebar-container-checked-action {
+    width: 25%;
+    background-color: #f7f8fc;
+    height: calc(100vh - 89px);
+    position: fixed;
+    border-right: 1px solid #dfe3e7;
+    border-top: 1px solid #dfe3e7;
+    right: 0;
+}
+
+.proc-images {
+    padding-bottom: 30%;
+    overflow-y: auto;
+    position: absolute;
+    height: 100%;
+    margin-top: 20px;
+}
+
+.proc-img {
+    width: 75%;
+    object-fit: cover;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.display-flex-img-delete-icon {
+    display: flex;
+    align-items: center;
+}
+
+.delete-proc-img {
+    cursor: pointer;
+    margin-left: 20px;
+    height: 30px;
+    display: none;
+}
+
+.add-pickure-for-proc {
+cursor: pointer;
+margin-top: 0 !important;
+margin-right: 10px;
+
+
+}
+
+.plus-icon-and-text{
+
+ padding-left: 30px;
+}
+
+.input-picture-icon-width {
+    width: 260px !important;
+}
+
+.display-flex-img-delete-icon:hover .delete-proc-img {
+        display: block;
+}
+
+.add-image-blackboard {
+    font-size: 0.9vw !important;
+}

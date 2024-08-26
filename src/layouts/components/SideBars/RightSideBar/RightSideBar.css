@@ -1,0 +1,144 @@
+.right_sidebar {
+  position: fixed;
+  display: flex;
+  top: 0;
+  bottom: 0;
+  z-index: 100;
+  right: 0;
+  width: 360px;
+  transition: width 0.5s;
+}
+.right-sidebar-closed {
+  width: 39px;
+  transition: width 0.5s;
+}
+
+.right-sidebar-container {
+  background: rgba(255, 255, 255, 1);
+  display: block;
+  overflow-x: hidden;
+  width: 320px;
+  max-height: 100vh;
+  padding: 28px 25px 43px 25px;
+  box-shadow: 0px 0 5px #d3d3d3;
+}
+
+.right-sidebar-title-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.toggle-sidebar {
+  display: inline;
+  position: relative;
+  cursor: pointer;
+  top: 25px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background: rgba(255, 255, 255, 1);
+  width: 40px;
+  height: 40px;
+  box-shadow: -5px 0 6px #d3d3d3;
+}
+
+.toggle-sidebar::before {
+  content: url("../../../../img/close-part1.svg");
+  position: absolute;
+  top: -15px;
+  right: 0px;
+}
+
+.toggle-sidebar::after {
+  content: url("../../../../img/close-part1.svg");
+  /* background-color: red; */
+  position: absolute;
+  transform: rotate(-90deg);
+  bottom: -14px;
+  right: -3px;
+}
+
+.my_profile {
+  font-size: 16px;
+  line-height: 40px;
+  color: #050505;
+  cursor: default;
+}
+
+.points_btn {
+  width: 40px;
+  height: 40px;
+  background: #f4f4f4;
+  opacity: 0.1;
+  border-radius: 10px;
+  margin-left: 141px;
+}
+
+.menu {
+  /* height: 4px; */
+  width: 16px;
+  border-radius: 0px;
+  color: #8c8e92;
+}
+
+.right-sidebar-ellipsis {
+  cursor: pointer;
+}
+
+.row-display-none .right-sidebar-ellipsis {
+  width: 17px;
+  height: 4px;
+}
+
+.picture {
+  /* height: 76px;
+  width: 76px;
+  border-radius: 68px;
+  margin-right: 17.5px; */
+  height: 76px;
+  width: 76px;
+  border-radius: 68px;
+  margin-right: 17.5px;
+  display: flex;
+  margin-left: at;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.my_page {
+  /* display: flex;
+  width: 76px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 22px; */
+
+  justify-content: center;
+  display: flex;
+  /* width: 76px; */
+  /* margin: 31px auto 22px auto; */
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  margin-top: 22px;
+}
+
+.name {
+  text-align: center;
+  width: 130px;
+  height: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  cursor: default;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0em;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.name > p {
+  width: 140px;
+  /*white-space: nowrap;*/
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+}

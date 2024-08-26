@@ -1,0 +1,35 @@
+.create-new-lesson-process-container {
+  display: flex;
+  padding-top: 89px;
+  /* height: 100vh; */
+}
+.create-new-lesson-process-sidebar-container {
+  width: 25%;
+  background-color: #f7f8fc;
+  /* padding: 24px; */
+  /* height: fit-content; */
+  height: calc(100vh - 89px);
+  position: fixed;
+  overflow-y: auto;
+  border-right: 1px solid #dfe3e7;
+  border-top: 1px solid #dfe3e7;
+}
+.create-new-lesson-process-main-container {
+  width: 50%;
+  margin-left: 25%;
+}
+
+.create-new-lesson-process-main-container .input-timer {
+  width: 155px!important;
+  height: 40px;
+  padding-left: 30px!important;
+}
+
+.method-name-create-btn-container {
+  margin: 5px 0 0 15px;
+}
+
+
+.lsn_proc_right_sidebar :where(ul, ol) {
+  margin-left: 18px !important;
+}

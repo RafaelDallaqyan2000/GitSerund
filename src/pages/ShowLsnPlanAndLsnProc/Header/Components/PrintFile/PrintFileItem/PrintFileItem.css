@@ -1,0 +1,52 @@
+.print-files-item-container {
+    min-height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    border-radius: 12px;
+    padding: 13px 6px 11px 26px;
+    font-family: 'Mardoto', sans-serif;
+
+}
+.print-files-item-container:hover {
+    background: rgba(140, 142, 146, 0.15);
+    transition: 0.6s;
+}
+.print-files-item-container-text {
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+    word-wrap: break-word;
+    overflow-wrap: anywhere;
+}
+.print-files-item-container-text :first-child {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 4px;
+    color: #1C1C1C;
+    text-overflow: ellipsis;
+    line-break: anywhere;
+}
+.print-files-item-container-text :last-child {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: flex-end;
+    color: #7E7E7E;
+}
+
+.print-files-item-container-icon {
+    cursor: pointer;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

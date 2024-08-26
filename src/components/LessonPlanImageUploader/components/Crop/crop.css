@@ -1,0 +1,64 @@
+.crop_wrapper{
+    background-color: #33333352;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: auto;
+}
+
+.crop_container{
+    position: relative;
+    width: 876px;
+    max-width: 100%;
+    padding: 20px;
+    background: #FFFFFF;
+    box-shadow: 0 4px 10px -2px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+}
+
+.crop_body{
+    width: 100%;
+    height: 491px;
+    max-height: 100%;
+    position: relative;
+}
+
+.crop_title_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.crop_close{
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+}
+
+.crop_close_icon{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.crop_title{
+    font-family: 'Mardoto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.crop_actions{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}

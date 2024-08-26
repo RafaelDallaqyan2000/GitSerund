@@ -1,0 +1,28 @@
+.email_check{
+    position: absolute;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.email_check_text{
+    font-family: 'Mardoto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+    opacity: 0.6;
+    width: 344px;
+}
+
+@media only screen and (max-width: 700px){
+    .email_check{
+        width: 100%;
+    }
+}
+

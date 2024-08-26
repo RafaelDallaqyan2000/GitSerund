@@ -1,0 +1,41 @@
+.switch_wrapper{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+.switch_body{
+    width: 51px;
+    height: 30px;
+    background: rgba(120, 120, 128, 0.16);
+    border-radius: 15px;
+    position: relative;
+    transition: all .4s;
+    margin-right: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 2px;
+}
+.switch_body.on{
+    background: linear-gradient(86.71deg, #6AB1FE -1.37%, #2B89EF 100%);
+    justify-content: flex-end;
+}
+.switch_circle{
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    border: 0.5px solid rgba(0, 0, 0, 0.04);
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15), 0 3px 1px rgba(0, 0, 0, 0.06);
+    transition: all .4s;
+}
+.switch_text{
+    font-family: 'Mardoto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}

@@ -1,0 +1,1 @@
+export const TOGGLE_COLUMN = "TOGGLE_COLUMN";

@@ -1,0 +1,85 @@
+.comment_info_item_container {
+    width: 100%;
+    border: 1px solid #DFE3E7;
+    border-radius: 12px;
+    padding-left: 16px;
+    padding-top: 16px;
+    padding-bottom: 14px;
+    display: flex;
+    position: relative;
+    margin-bottom: 8px;
+    /*display: flex;*/
+    /*align-items: center;*/
+}
+
+.profile_picture_comment_item {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+.date_in_notification {
+    height: 100%;
+    font-family: 'Mardoto', sans-serif;
+    position: absolute;
+    right: 18px;
+    top: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #8C8E92;
+}
+
+.if_admin_notification {
+    line-height: 20px;
+    margin-left: 9px;
+    margin-top: 8px;
+}
+
+.see_admin_notification {
+    background: linear-gradient(86.71deg, #6AB1FE -1.37%, #2B89EF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+
+}
+
+.notification_texts {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    /*justify-content: space-between;*/
+}
+.notification_topic {
+    font-family: 'Mardoto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: capitalize;
+    color: #4A4A4A;
+    margin-top: 14px;
+    margin-left: 9px;
+}
+.notification_comment {
+    font-family: 'Mardoto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #4A4A4A;
+    border-left: 4px solid #DDDEE1;
+    border-radius: 2px;
+    min-height: 40px;
+    padding-left: 8px;
+    margin: 12px 0 3px;
+}

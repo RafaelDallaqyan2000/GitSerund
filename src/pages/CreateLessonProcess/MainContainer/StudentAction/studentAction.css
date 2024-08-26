@@ -1,0 +1,27 @@
+.method-name ::-webkit-input-placeholder {
+  color: #0bf !important;
+}
+
+.method-name :-moz-placeholder {
+  /* Firefox 18- */
+  color: #0bf !important;
+}
+
+.method-name ::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #0bf !important;
+}
+
+.method-name :-ms-input-placeholder {
+  color: #0bf !important;
+}
+
+.method-name ::placeholder {
+  color: #0bf !important;
+}
+.method-action-container {
+  padding: 30px;
+}
+.student-method {
+  background-color: #6fd89c;
+}

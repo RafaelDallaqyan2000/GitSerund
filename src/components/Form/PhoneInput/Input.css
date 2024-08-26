@@ -1,0 +1,52 @@
+.input_label {
+  /* font-size: 16px; */
+}
+.input_component {
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  margin-top: 7px;
+  font-size: 15px;
+  padding: 16px;
+  line-height: 18px;
+}
+
+.input_component_tel {
+  width: 344px;
+  height: 50px;
+  border-radius: 5px;
+  /* border: 1.5px solid #93c7ff; */
+  /* background: white; */
+  /* display: inline-block; */
+  margin-top: 7px;
+  font-size: 15px;
+  /* margin-bottom: 19px; */
+  padding: 16px;
+  line-height: 18px;
+}
+.form_eye_div {
+  top: 21px;
+  position: absolute;
+  cursor: pointer;
+}
+
+input:focus {
+  border: 0 !important;
+  box-shadow: 0 0 0 2.5px #93c7ff inset;
+  -webkit-box-shadow: 0 0 0 2.5px #93c7ff inset;
+  -moz-box-shadow: 0 0 0 2.5px #93c7ff inset;
+}
+
+.phone-input {
+  display: none !important;
+}
+
+
+@media screen and (min-width:701px) {
+  .phone-input {
+    display: block !important;
+  }
+  .phone-input-component {
+    margin: 20px 5px;
+  }
+}

@@ -1,0 +1,373 @@
+@font-face {
+  font-family: "Mardoto";
+  src: url("fonts/Mardoto-Light.eot");
+  src: url("fonts/Mardoto-Light.eot?#iefix") format("embedded-opentype"),
+    url("fonts/Mardoto-Light.woff2") format("woff2"),
+    url("fonts/Mardoto-Light.woff") format("woff"),
+    url("fonts/Mardoto-Light.ttf") format("truetype"),
+    url("fonts/Mardoto-Light.svg#Mardoto-Light") format("svg");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Mardoto";
+  src: url("fonts/Mardoto-Black.eot");
+  src: url("fonts/Mardoto-Black.eot?#iefix") format("embedded-opentype"),
+    url("fonts/Mardoto-Black.woff2") format("woff2"),
+    url("fonts/Mardoto-Black.woff") format("woff"),
+    url("fonts/Mardoto-Black.ttf") format("truetype"),
+    url("fonts/Mardoto-Black.svg#Mardoto-Black") format("svg");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Mardoto";
+  src: url("fonts/Mardoto-Italic.eot");
+  src: url("fonts/Mardoto-Italic.eot?#iefix") format("embedded-opentype"),
+    url("fonts/Mardoto-Italic.woff2") format("woff2"),
+    url("fonts/Mardoto-Italic.woff") format("woff"),
+    url("fonts/Mardoto-Italic.ttf") format("truetype"),
+    url("fonts/Mardoto-Italic.svg#Mardoto-Italic") format("svg");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Mardoto";
+  src: url("fonts/Mardoto-Bold.eot");
+  src: url("fonts/Mardoto-Bold.eot?#iefix") format("embedded-opentype"),
+    url("fonts/Mardoto-Bold.woff2") format("woff2"),
+    url("fonts/Mardoto-Bold.woff") format("woff"),
+    url("fonts/Mardoto-Bold.ttf") format("truetype"),
+    url("fonts/Mardoto-Bold.svg#Mardoto-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Mardoto";
+  src: url("fonts/Mardoto-BoldItalic.eot");
+  src: url("fonts/Mardoto-BoldItalic.eot?#iefix") format("embedded-opentype"),
+    url("fonts/Mardoto-BoldItalic.woff2") format("woff2"),
+    url("fonts/Mardoto-BoldItalic.woff") format("woff"),
+    url("fonts/Mardoto-BoldItalic.ttf") format("truetype"),
+    url("fonts/Mardoto-BoldItalic.svg#Mardoto-BoldItalic") format("svg");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Mardoto";
+  src: url("fonts/Mardoto-BlackItalic.eot");
+  src: url("fonts/Mardoto-BlackItalic.eot?#iefix") format("embedded-opentype"),
+    url("fonts/Mardoto-BlackItalic.woff2") format("woff2"),
+    url("fonts/Mardoto-BlackItalic.woff") format("woff"),
+    url("fonts/Mardoto-BlackItalic.ttf") format("truetype"),
+    url("fonts/Mardoto-BlackItalic.svg#Mardoto-BlackItalic") format("svg");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Mardoto";
+  src: url("fonts/Mardoto-ThinItalic.eot");
+  src: url("fonts/Mardoto-ThinItalic.eot?#iefix") format("embedded-opentype"),
+    url("fonts/Mardoto-ThinItalic.woff2") format("woff2"),
+    url("fonts/Mardoto-ThinItalic.woff") format("woff"),
+    url("fonts/Mardoto-ThinItalic.ttf") format("truetype"),
+    url("fonts/Mardoto-ThinItalic.svg#Mardoto-ThinItalic") format("svg");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Mardoto";
+  src: url("fonts/Mardoto-Thin.eot");
+  src: url("fonts/Mardoto-Thin.eot?#iefix") format("embedded-opentype"),
+    url("fonts/Mardoto-Thin.woff2") format("woff2"),
+    url("fonts/Mardoto-Thin.woff") format("woff"),
+    url("fonts/Mardoto-Thin.ttf") format("truetype"),
+    url("fonts/Mardoto-Thin.svg#Mardoto-Thin") format("svg");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Mardoto";
+  src: url("fonts/Mardoto-Medium.eot");
+  src: url("fonts/Mardoto-Medium.eot?#iefix") format("embedded-opentype"),
+    url("fonts/Mardoto-Medium.woff2") format("woff2"),
+    url("fonts/Mardoto-Medium.woff") format("woff"),
+    url("fonts/Mardoto-Medium.ttf") format("truetype"),
+    url("fonts/Mardoto-Medium.svg#Mardoto-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Mardoto";
+  src: url("fonts/Mardoto-MediumItalic.eot");
+  src: url("fonts/Mardoto-MediumItalic.eot?#iefix") format("embedded-opentype"),
+    url("fonts/Mardoto-MediumItalic.woff2") format("woff2"),
+    url("fonts/Mardoto-MediumItalic.woff") format("woff"),
+    url("fonts/Mardoto-MediumItalic.ttf") format("truetype"),
+    url("fonts/Mardoto-MediumItalic.svg#Mardoto-MediumItalic") format("svg");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Mardoto";
+  src: url("fonts/Mardoto-LightItalic.eot");
+  src: url("fonts/Mardoto-LightItalic.eot?#iefix") format("embedded-opentype"),
+    url("fonts/Mardoto-LightItalic.woff2") format("woff2"),
+    url("fonts/Mardoto-LightItalic.woff") format("woff"),
+    url("fonts/Mardoto-LightItalic.ttf") format("truetype"),
+    url("fonts/Mardoto-LightItalic.svg#Mardoto-LightItalic") format("svg");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Mardoto";
+  src: url("fonts/Mardoto-Regular.eot");
+  src: url("fonts/Mardoto-Regular.eot?#iefix") format("embedded-opentype"),
+    url("fonts/Mardoto-Regular.woff2") format("woff2"),
+    url("fonts/Mardoto-Regular.woff") format("woff"),
+    url("fonts/Mardoto-Regular.ttf") format("truetype"),
+    url("fonts/Mardoto-Regular.svg#Mardoto-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+p {
+  color: black;
+}
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+.pt-10 {
+  padding-top: 10px;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+
+.ml-1 {
+  margin-left: 1rem;
+}
+.mr-1 {
+  margin-right: 1rem;
+}
+
+.mx-1 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.my-1 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.d-flex {
+  display: flex;
+}
+.justify-content-end {
+  justify-content: end;
+}
+.justify-content-center {
+  justify-content: center;
+}
+.justify-content-around {
+  justify-content: space-around;
+}
+.justify-content-between {
+  justify-content: space-between;
+}
+.btn {
+  font-size: 16px;
+  width: 118px;
+  height: 40px;
+  border-radius: 5px;
+}
+.text-danger {
+  color: #ea6670;
+}
+.line-height-1d4 {
+  line-height: 1.4;
+}
+.btn-danger {
+  color: #fff;
+  background-color: #ea6670;
+  border-color: #ea6670;
+}
+.btn-light {
+  color: #8c8e92;
+  background-color: #eef1f6;
+  border-color: #eef1f6;
+}
+.pl-15 {
+  padding-left: 15px;
+}
+
+/* *,
+*:before,
+*:after {
+  font-family: Mardoto;
+} */
+body {
+  font-family: "Mardoto", sans-serif;
+  font-weight: 400;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+img {
+  vertical-align: top;
+}
+
+input[type="date"]:before {
+  content: attr(placeholder) !important;
+  color: #aaa;
+  margin-right: 0.5em;
+}
+input[type="date"]:focus:before,
+input[type="date"]:valid:before {
+  content: "";
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+input[type="file"] {
+  /* display: none; */
+  opacity: 0;
+}
+
+.custom-file-upload {
+  border: 1px dashed #cad0de;
+  display: inline-block;
+  background-color: #cad0de;
+  padding: 27px 8px 9px 16px;
+  color: #757575;
+  cursor: pointer;
+  line-height: 40px;
+  width: 85px;
+  height: 121px;
+  border-radius: 6px;
+}
+
+.custom-file-upload:hover {
+  background-color: #c6c6c6;
+  transition: all 1s ease;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  /*box-shadow: inset 0 0 5px grey;*/
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #dfe3e7;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b7b7b7;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+ul,
+ol,
+li,
+table,
+th,
+td,
+tr,
+label,
+img,
+button,
+a {
+  caret-color: transparent !important;
+}
+
+div[class="tox-statusbar__text-container"],
+.tox-notifications-container,
+.tox-statusbar {
+  display: none !important;
+}

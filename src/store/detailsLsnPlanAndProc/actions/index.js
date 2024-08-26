@@ -1,0 +1,10 @@
+export { addNewComment } from "./addNewComment";
+export { getComments } from "./getComments";
+export { getCommentList } from "./getCommentList";
+export { getCommentTypes } from "./getCommentTypes";
+export { updateComment } from "./updateComment";
+export { deleteComment } from "./deleteComment";
+export { resolveComment } from "./resolveComment";
+export { getCommentsFromSidebarRequest } from "./getCommentsFromSidebar";
+export { getAllLessonPlanComments } from "./getAllLessonPlanComments";
+export { changeCommentPage } from "./changeCommentPage";

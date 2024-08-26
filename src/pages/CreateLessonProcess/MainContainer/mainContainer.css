@@ -1,0 +1,49 @@
+.new-lesson-proc-input {
+  width: 500px;
+}
+.send-lesson-process-button {
+  height: 40px !important;
+  width: 169px !important;
+  font-size: 14px !important;
+
+  float: right;
+
+  background: linear-gradient(83.13deg, #6fd89c 0%, #46b776 100%);
+
+  color: #fff;
+}
+.lesson-process-duration-input-time-icon {
+  position: absolute;
+  padding: 17px 0 0 7px;
+  z-index: 1;
+}
+
+/*Todo: may be useful in the future */
+/*.lesson-process-duration-input-star-icon {*/
+/*  margin: 15px 0 0 140px;*/
+/*  z-index: 1;*/
+/*  position: absolute;*/
+/*}*/
+
+.method-name {
+  margin: 11px 0;
+  width: 352px;
+  height: 40px;
+  border: 1.5px solid #93c7ff;
+  border-radius: 6px;
+  /* margin-top: 33px; */
+  /* padding: 11px 13px; */
+  padding: 11px;
+  /* min-height: 41px; */
+  line-height: 22px;
+  font-size: 14px;
+}
+.method-action-devider-component {
+  height: 10px;
+  background: #f7f8fc;
+  border: 1px solid #dfe3e7;
+}
+.method-save-btn-container {
+  padding: 20px 50px 30px 0;
+  height: 90px;
+}

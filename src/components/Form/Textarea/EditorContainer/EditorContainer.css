@@ -1,0 +1,8 @@
+.rdw-option-disabled {
+    display: none !important;
+  }
+  
+  .rdw-editor-wrapper {
+    box-sizing: content-box;
+    width: 637px;
+  }

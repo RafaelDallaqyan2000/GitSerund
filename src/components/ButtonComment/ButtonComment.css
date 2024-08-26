@@ -1,0 +1,42 @@
+.comment {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  position: relative;
+  margin-bottom: 3px;
+  right: 0;
+  align-self: center;
+}
+
+.description-container {
+  position: relative;
+}
+
+.comment-notification {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background-color: #ea6670;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-family: "Mardoto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  text-align: center;
+  color: #ffffff;
+  top: -2px;
+  right: -6px;
+}
+
+.btn-comment {
+  width: 20px;
+  height: 20px;
+  background-color: unset;
+}
+.comment-icon {
+  width: 100%;
+  height: 100%;
+}

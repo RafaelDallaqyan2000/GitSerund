@@ -1,0 +1,14 @@
+.responsiveButtonContainers {
+    display: flex;
+    border: 1px solid #DFE3E7;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.mobileFilterPopUpOldContainer {
+    position: absolute;
+    width: 100%;
+    top: 120px;
+    left: 0px;
+    padding-right: 20px;
+}

@@ -1,0 +1,51 @@
+.description {
+  resize: none;
+  overflow: hidden;
+  min-height: 50px;
+  /* max-height: 100px; */
+}
+
+.save-desc-icon {
+  width: 33px;
+  height: 33px;
+  border-radius: 20px;
+  /* margin-right: -21px; */
+  margin-top: 38px;
+  margin-left: -43px;
+  padding-left: 7px;
+  padding-top: 5px;
+}
+
+.save-desc-icon :hover {
+  cursor: pointer;
+}
+
+.textarea-label {
+  font-size: 12px;
+}
+.text-area-style {
+  position: relative;
+}
+.only-read-text-container {
+  /*background-color: red;*/
+  margin: 10px 0;
+}
+.only-read-text-container > p {
+  font-family: Mardoto;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.guide-text-title {
+  color: #000;
+  font-family: Mardoto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 6px;
+}
+
+.guide-text {
+  padding: 10px;
+}

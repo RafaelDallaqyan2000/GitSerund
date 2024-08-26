@@ -1,0 +1,19 @@
+.drowSubjectNameInResponsiveContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 12px 12px 0px 0px;
+    padding: 4px;
+    margin-top: 8px;
+    min-width: 151px;
+}
+
+.drowSubjectNameInResponsive {
+    color: #FFF;
+    font-family: Mardoto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+}

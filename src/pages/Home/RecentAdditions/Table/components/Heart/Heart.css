@@ -1,0 +1,26 @@
+.heart-jumping {
+  animation: jumping 0.5s ease 1s infinite;
+}
+
+.heart-button {
+  background: transparent;
+  margin-right: 25px;
+}
+
+@keyframes jumping {
+  0% {
+    margin-bottom: 0px;
+  }
+  50% {
+    margin-top: -6px;
+  }
+  100% {
+    margin-top: 0px;
+  }
+}
+
+@media screen and (max-width: 1120px) {
+  .heart-button {
+    margin-right: 0;
+  }
+}

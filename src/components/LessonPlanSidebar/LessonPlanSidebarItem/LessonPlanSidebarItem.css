@@ -1,0 +1,34 @@
+.lesson_plan_sidebar_item {
+    display: block;
+    color: rgb(83, 102, 162);
+    font-size: 20px;
+    line-height: 41px;
+    border-radius: 5px;
+    padding-left: 15px;
+    width: 100%;
+    height: fit-content;
+    position: relative;
+    overflow: hidden;
+}
+
+.lesson_plan_sidebar_item.activeNavItem,  .lesson_plan_sidebar_item:hover{
+    color: #283c79;
+    background-color: #f0f2fe;
+}
+
+.lesson_plan_sidebar_item.activeNavItem::before, .lesson_plan_sidebar_item:hover::before {
+    content: '';
+    background-image: url(../../../img/sidebarActiveItemRectangle.svg);
+    width: 5px;
+    height: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    background-size: cover;
+}
+
+@media only screen and (max-width: 1000px){
+    .lesson_plan_sidebar_item {
+        font-size: 18px;
+    }
+}

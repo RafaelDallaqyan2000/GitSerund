@@ -1,0 +1,67 @@
+.open-layout-container {
+  width: 346px;
+  padding-top: 5px;
+}
+
+.btn_ararka {
+  display: flex;
+  height: 50px;
+  width: 329px;
+  background: #ffffff;
+  border: 1.5px solid #93c7ff;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 15px;
+}
+
+.arrow_icon {
+  height: 12px;
+  width: 13px;
+  border-radius: 1px;
+  margin-left: 175px;
+  position: absolute;
+  margin-left: 278px;
+  padding-left: -11px;
+  float: right;
+}
+
+.NestedSelect {
+  z-index: 1;
+  max-height: 200px;
+  overflow-y: scroll;
+  width: 329px;
+  /* margin-top: 0px; */
+  margin-left: 30px;
+  background: #fafafa;
+  box-shadow: 0px 18px 20px -10px rgb(196 196 196 / 82%);
+  border-radius: 4px;
+}
+
+.list {
+  margin-top: -16px;
+  margin-left: -15px;
+  box-shadow: 0px 18px 20px -10px rgb(196 196 196 / 82%);
+  border-radius: 4px;
+  background-color: #fafafa;
+}
+
+.li1 {
+  cursor: pointer;
+  display: flex;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 33px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 27px;
+  color: #433f3f;
+  width: 325px;
+  text-align: left;
+}
+
+.ararka {
+  width: 270px;
+  margin-top: 0px !important;
+}

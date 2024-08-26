@@ -1,0 +1,67 @@
+.editor {
+    box-sizing: border-box;
+    border: 0;
+    cursor: text;
+    padding: 10px 0;
+    border-radius: 2px;
+    background: #fefefe;
+}
+
+.lesson-plan-section > div > .editor {
+    border: 0;
+}
+
+.editor :global(.public-DraftEditor-content) {
+    min-height: 140px;
+}
+
+.headlineButtonWrapper {
+    display: inline-block;
+}
+
+.headlineButton {
+    background: #fbfbfb;
+    color: #888;
+    font-size: 18px;
+    border: 0;
+    padding-top: 5px;
+    vertical-align: bottom;
+    height: 34px;
+    width: 36px;
+}
+
+.headlineButton:hover,
+.headlineButton:focus {
+    background: #f3f3f3;
+}
+
+.draftJsEmojiPlugin__image__192TI:hover {
+    border: 1px solid darkcyan;
+}
+
+.inputLinkContainer {
+    position: relative;
+}
+
+.iconInLinkInput {
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: cornflowerblue;
+    padding: 4px;
+    position: absolute;
+    box-sizing: border-box;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.MyEditor a {
+    color: #0d54d9;
+    text-decoration: underline;
+}
+
+.rdw-link-decorator-wrapper a {
+    color: #0774ff;
+    text-decoration: underline;
+}

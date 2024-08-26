@@ -1,0 +1,31 @@
+.multiselect-with-multiselect li:hover {
+  background: #f7f7f7;
+}
+.multiselect-with-multiselect li {
+  padding: 4px;
+}
+
+.multiselect-with-multiselect {
+  position: absolute;
+  background: #fff;
+  /* width: 344px !important; */
+  width: 344px;
+  box-shadow: 0px 0px 10px -4px #757575;
+  z-index: 2;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.select-placeholder {
+  color: #757575;
+}
+
+@media screen and (min-width:1121px) and  (max-width:1340px)  {
+  
+  .multiselect-with-multiselect-desktop {
+    width: 42.5% !important;
+  }
+
+}
+
+  
